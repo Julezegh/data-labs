@@ -13,8 +13,7 @@ LEFT JOIN titles t
 ON ta.title_id=t.title_id
 LEFT JOIN sales sa
 ON sa.title_id=t.title_id
-GROUP BY a.au_id, a.au_lname, a.au_fname, ROYALTY
-ORDER BY ROYALTY DESC
+
 
 
 2. 
