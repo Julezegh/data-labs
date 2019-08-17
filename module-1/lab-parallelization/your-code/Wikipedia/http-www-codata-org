@@ -1,0 +1,1840 @@
+
+<!doctype html>
+
+  <head>
+    <link rel="shortcut icon" href="http://www.codata.org/uploads/Main/favicon.ico" />
+    <title>CODATA, The Committee on Data for Science and Technology</title>
+
+    <html lang="en">
+<meta name="keywords" content="home,news,&amp,articles" />
+<meta name="description" content="Home -  CODATA" />
+    <link rel="stylesheet" type="text/css" href="http://www.codata.org/tmp/cache/stylesheet_combined_4c64286c5d82a44f9c58b479dce47976.css" />
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('a.backToTop').click(function(){
+       $('html, body').delay(100).animate({ scrollTop: $("#header").offset().top }, 600); 
+    });
+});
+</script>
+
+
+  
+<!--css for show1-->
+ 
+<link rel="stylesheet" type="text/css" href="http://www.codata.org/modules/Showtime/templates/nivoslider/nivo-slider.css" /> 
+<link rel="stylesheet" type="text/css" href="http://www.codata.org/modules/Showtime/templates/css/Show_1.css" />
+<!--LOAD SHOWTIME jQuery-->
+<script type="text/javascript" src="http://www.codata.org/modules/Showtime/templates/jquery/jquery.cycle.all.min.js" ></script>
+<!--END SHOWTIME-->
+</head>  <body>
+
+  <div id="wrapper">
+  <div id="header-container">
+
+      <div id="header">
+        <a href="http://www.codata.org" class="logo"><img src="http://www.codata.org/uploads/Main/codata_new_logo.png" alt=" CODATA Paris" /></a>    
+     
+        <div class="top-links"><ul>
+<li><a href="http://www.codata.org/">Home</a></li>
+<li><a href="http://codata.org/blog/" target="_blank">CODATA Blog</a></li>
+<li><a href="http://www.codata.org/events">Events</a></li>
+<li><a href="http://www.codata.org/about-codata/news">News</a></li>
+<li><a href="http://www.codata.org/about-codata">About CODATA</a></li>
+<li><a href="http://www.codata.info/exec/">Members' Area</a></li>
+<li><a href="http://www.codata.org/contact-us">Contact</a></li>
+</ul></div>
+        <div class="search form"><form id="cntnt01moduleform_1" method="get" action="http://www.codata.org/" class="cms_form">
+<div class="hidden">
+<input type="hidden" name="mact" value="Search,cntnt01,dosearch,0" />
+<input type="hidden" name="cntnt01returnid" value="15" />
+</div>
+
+<button class="fr superbutton w70 mt5 mb0 ml10" name="submit" type="submit">Search</button>
+<input type="text" id="cntnt01searchinput" name="cntnt01searchinput" maxlength="50" value="Enter search terms..." onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;"/>
+</form>
+</div>
+        <div class="addthis_toolbox addthis_default_style">
+        <p>Share: </p>
+	<a class="addthis_button_compact"></a>
+	<a class="addthis_button_preferred_3"></a>
+	<a class="addthis_button_email"></a>
+	<a class="addthis_button_preferred_2"></a>
+	<a class="addthis_button_preferred_1"></a>
+	<a class="addthis_button_google_plusone_share"></a>
+</div>
+
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true, ui_click : true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e718e27159bfff0"></script>
+
+         
+
+
+<ul class="horizontal white">
+
+<li class="parent"><a class="parent" href="http://www.codata.org/about-codata"><span>About</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/about-codata/our-mission" target=""><span>CODATA Mission</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/about-codata/codata-strategic-plan-2013-2018"><span>CODATA Strategic Plan 2013-2018</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/about-codata/codata-strategic-plan-2013-2018/previous-codata-strategic-plans" target=""><span>Previous CODATA Strategic Plans</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/about-codata/codata-prospectus-2015-2017"><span>CODATA Prospectus 2015-2017</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/about-codata/the-codata-prospectus-strategy-and-achievement-2015-2016" target=""><span>CODATA Prospectus 2015-2016</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/message-from-president-geoffrey-boulton"><span>Message from President Geoffrey Boulton</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/about-codata/message-from-the-president" target=""><span>President&#39;s Message 2010-14</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/message-from-president-geoffrey-boulton/geoffrey-boulton-presentations" target=""><span>Articles and Presentations</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/about-codata/codata-constitution" target=""><span>CODATA Constitution</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/about-codata/executive-committee" target=""><span>Executive Committee</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/about-codata/secretariat"><span>Secretariat</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/about-codata/secretariat/executive-director-presentations-and-publications" target=""><span>Executive Director Presentations</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/about-codata/secretariat/past-executive-directors" target=""><span>Past Executive Directors</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/about-codata/news" target=""><span>News</span></a>
+
+
+</li>
+
+<li><a href="http://codata.org/blog/" target="_blank"><span>CODATA Blog</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/about-codata/communications" target=""><span>Communications</span></a>
+
+
+</li>
+
+<li><a href="http://codata.info/" target=""><span>CODATA Archive</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/about-codata/codata-travel-policy" target=""><span>CODATA Travel Policy</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership"><span>Membership</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/why-join-codata" target=""><span>Why join CODATA?</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members"><span>National Members</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/australia"><span>Australia</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/australia/australia-national-committee" target=""><span>Australia National Committee</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/brazil" target=""><span>Brazil</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/canada"><span>Canada</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/canada/canada-national-committee" target=""><span>Canada National Committee</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/canada/past-achievements-5" target=""><span>Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/china"><span>China</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/china/national-committee" target=""><span>China National Committee</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/china/data-issues-in-china" target=""><span>Data Issues in China</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/china/achievements-since-2012" target=""><span>Achievements Since 2012</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/china/past-achievements-2" target=""><span>Achievements Before 2012</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/china-taipei"><span>China: Taipei</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/china-taipei/china-taipei-national-committee" target=""><span>China: Taipei National Committee</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/czech-republic" target=""><span>Czech Republic</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/denmark" target=""><span>Denmark</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/finland" target=""><span>Finland</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/india"><span>India</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/india/india-national-committee" target=""><span>India National Committee</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/india/past-achievements-4" target=""><span>Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/indonesia" target=""><span>Indonesia</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/israel" target=""><span>Israel</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/japan"><span>Japan</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/japan/japan-national-committee" target=""><span>Japan National Committee</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/kenya"><span>Kenya</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/kenya/codata-kenya-activities" target=""><span>CODATA Kenya Activities</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/korea"><span>Korea</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/korea/national-committee" target=""><span>National committee</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/korea/achievements-since-2012-2" target=""><span>Achievements Since 2012</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/korea/achievements-before-2012" target=""><span>Achievements before 2012</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/netherlands" target=""><span>Netherlands</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/mongolia" target=""><span>Mongolia</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/poland" target=""><span>Poland</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/russian-federation"><span>Russian Federation</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/russian-federation/recent-highlights" target=""><span>Recent highlights</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/russian-federation/future-activities" target=""><span>Future activities</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/south-africa"><span>South Africa</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/south-africa/past-achievements-3" target=""><span>Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/national-members/ukraine"><span>Ukraine</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/national-members/ukraine/ukraine-national-committee" target=""><span>Ukraine National Committee</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/ukraine/past-achievements" target=""><span>Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/united-kingdom" target=""><span>United Kingdom</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/national-members/united-states-of-america" target=""><span>United States of America</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/international-scientific-unions"><span>International Scientific Unions</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-astronomical-union" target="_blank"><span>International Astronomical Union</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-pure-and-applied-chemistry" target="_blank"><span>Pure and Applied Chemistry</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/int-union-of-pure-and-applied-physics" target="_blank"><span>Pure and Applied Physics</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-biological-sciences" target="_blank"><span>International Union of Biological Sciences</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-geographical-union" target="_blank"><span>International Geographical Union</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/international-scientific-unions/international-union-of-crystallography"><span>International Union of Crystallography</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-crystallography/iucr-past-achievements" target=""><span>IUCr Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/int-union-of-biochemistry-and-molecular-biology" target="_blank"><span>Biochemistry and Molecular Biology</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-geological-sciences" target="_blank"><span>International Union of Geological Sciences</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-psychological-science" target="_blank"><span>International Union of Psychological Science </span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/pure-and-applied-biophysics" target="_blank"><span>Pure and Applied Biophysics</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-nutritional-sciences" target=""><span>International Union of Nutritional Sciences</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-basic-and-clinical-pharmacology" target=""><span>Basic and Clinical Pharmacology</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-immunological-societies" target=""><span>International Union of Immunological Societies</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-microbiological-societies" target="_blank"><span>International Union of Microbiological Societies</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-soil-sciences" target=""><span>International Union of Soil Sciences</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/international-union-of-geodesy-and-geophysics" target=""><span>International Union of Geodesy and Geophysics</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/int-union-of-anthropological-ethnological-sciences" target=""><span>Anthropological and Ethnological Sciences</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/international-scientific-unions/isde" target=""><span>International Society for Digital Earth</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/membership/co-opted-members" target=""><span>Co-Opted Members</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/institutional-members"><span>Institutional Members</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/affiliate-members/scientific-data" target=""><span>Springer Nature</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/membership/affiliate-members/baohe-data" target=""><span>Baohe Data</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/membership/affiliate-members/cnic"><span>CNIC</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/membership/affiliate-members/cnic/cnic-full-details" target=""><span>CNIC - Full Details</span></a>
+
+
+</li></ul></li></ul></li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events"><span>Events</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/general-assembly"><span>General Assembly</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/general-assembly/general-assembly-2018"><span>General Assembly 2018</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/general-assembly/general-assembly-2018/codata-elections-2018" target=""><span>CODATA Elections 2018</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/general-assembly/general-assembly-2018/results-of-codata-elections-2018" target=""><span>Results of CODATA Elections 2018</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/general-assembly/general-assembly-2018/call-for-task-groups-2018-2020" target=""><span>Call for Task Groups 2018-2020</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/general-assembly/general-assembly-2018/2018-task-groups" target=""><span>2018 Task Groups</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/general-assembly/general-assembly-2016"><span>General Assembly 2016</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/general-assembly/general-assembly-2016/codata-elections-2016" target=""><span>CODATA Elections 2016</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/general-assembly/general-assembly-2014/task-group-selection-2016" target=""><span>Task Group Selection 2016</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/general-assembly/general-assembly-2016/photos" target=""><span>Photos</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/general-assembly/general-assembly-2014"><span>General Assembly 2014</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/general-assembly/codata-elections-2014" target=""><span>CODATA Elections 2014</span></a>
+
+
+</li></ul></li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences"><span>Conferences</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/vizafrica-botswana-2019"><span>VizAfrica Botswana 2019</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/conferences/vizafrica-botswana-2019/program-committee" target=""><span>Program Committee</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/vizafrica-botswana-2019/keynotes-3" target=""><span>Keynotes</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/codata-2019-beijing"><span>CODATA 2019 Beijing</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/conferences/codata-2019-beijing/keynotes-2" target=""><span>Keynotes</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-2019-beijing/sponsors-3" target=""><span>Sponsors</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-helsinki-2019-fair-rdm-workshop" target=""><span>CODATA-Helsinki 2019 FAIR RDM Workshop</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/drexel-metadata-research-centre-and-codata-workshop"><span>CODATA - Drexel Metadata Research 2019 workshop</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/conferences/drexel-metadata-research-centre-and-codata-workshop/keynotes" target=""><span>Keynotes</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/drexel-metadata-research-centre-and-codata-workshop/sponsors-2" target=""><span>Sponsors</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/international-data-week-2018"><span>International Data Week 2018</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/conferences/international-data-week-2018/call-for-session-proposals-scidatacon-2018" target=""><span>Call for Session Proposals - SciDataCon 2018</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/international-data-week-2018/call-for-papers-and-posters" target=""><span>Call for papers and posters</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/international-data-week-2018/keynote-speakers-idw2018" target=""><span>Keynote Speakers - IDW2018</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/international-data-week-2018/sponsors" target=""><span>Sponsors - IDW2018</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/goettingen-codata-rdm-symposium-2018"><span>Göttingen-CODATA RDM Symposium 2018</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/conferences/goettingen-codata-rdm-symposium-2018/goettingen-codata-2018-cfp" target=""><span>Göttingen-CODATA 2018 - CFP</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/goettingen-codata-rdm-symposium-2018/keynote-speakers" target=""><span>Keynote Speakers</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-2017-saint-petersburg" target=""><span>CODATA 2017 - Saint Petersburg</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/international-data-week-2016"><span>International Data Week 2016</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/conferences/international-data-week-2016/rda-plenary-photos" target=""><span>RDA Plenary Photos</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/idf-photos" target=""><span>IDF - Photos</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/international-data-week-2016/idw-organising-group-photos" target=""><span>IDW Organising Group - Photos</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/scidatacon-2016"><span>SciDataCon 2016</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/scidatacon-photos" target=""><span>SciDataCon Photos</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/scidatacon-2014" target=""><span>SciDataCon 2014</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-23-taipei-2012" target=""><span>CODATA 23 - Taipei 2012</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-22-cape-town-2010" target=""><span>CODATA 22 - Cape Town 2010</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-21-kyiv-2008" target=""><span>CODATA 21 - Kyiv 2008</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-20-beijing-2006" target=""><span>CODATA 20 - Beijing 2006</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/conferences/codata-19-berlin-2004"><span>CODATA 19 - Berlin 2004</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/conferences/codata-19-berlin-2004/codata-19-scientific-programme" target=""><span>CODATA 19 - Scientific Programme</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-18-montreal-2002" target=""><span>CODATA 18 - Montreal 2002</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/conferences/codata-17-baveno-2000" target=""><span>CODATA 17 - Baveno 2000</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/science-and-policy-workshops"><span>Science and Policy Workshops</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/workshops/workshops-2014/big-data-for-international-science" target=""><span>Big Data  for International Science - Beijing</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/workshops/workshops-2014/open-data-in-developing-countries-nairobi" target=""><span>Open Data in Developing Countries - Nairobi</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/training-workshops"><span>Training Workshops</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/training-workshops/beijing-2019-scientific-big-data-and-machine-learning" target=""><span>Beijing 2019 - Scientific Big Data and Machine Learning</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/2017-international-training-workshop-for-developing-countries-on-big-data-for-science" target=""><span>Beijing 2017 - Open Data for Better Science</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/workshops/workshops-2015/training-workshop-on-big-data-jakarta" target=""><span>Jakarta 2015 - Tools Big Data Management</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/training-workshops/training-workshop-in-big-data-for-science-beijing-2016" target=""><span>Beijing 2016 - Big Data for Science</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/workshops/workshops-2015/training-workshop-on-big-data" target=""><span>Bangalore 2015 - Training on Big Data</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/workshops/workshops-2014/training-workshop-on-open-data-nairobi" target=""><span>Nairobi 2014 - Training on Open Data</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/workshops/workshops-2014/big-data-science-training-workshop-beijing" target=""><span>Beijing 2014 - Big Data for Science </span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/events/codata-prize"><span>CODATA Prize</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/events/codata-prize/2016-david-r-lide-usa" target=""><span>2016: David R. Lide, USA</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/codata-prize/codata-prize-2014-professor-sydney-r-hall" target=""><span>2014: Sydney R. Hall, IUCr</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/codata-prize/2012-michael-f-goodchild-usa" target=""><span>2012: Michael F. Goodchild, USA</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/codata-prize/codata-prize-2010-paul-uhlir-usa" target=""><span>2010: Paul Uhlir, USA</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/codata-prize/codata-prize-2008-professor-liu-chuang-china" target=""><span>2008: LIU Chuang, China</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/codata-prize/2006-john-rumble-usa" target=""><span>2006: John Rumble, USA</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/codata-prize/2004-jean-bonnin-france" target=""><span>2004: Jean Bonnin, France</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/codata-prize/2000-barry-taylor-usa" target=""><span>2000: Barry Taylor, USA</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/events/webinars" target=""><span>Webinars</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/events/events-calendar" target=""><span>Events Calendar</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/strategic-initiatives"><span>Initiatives</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/committees-and-groups/fundamental-physical-constants"><span>Fundamental Physical Constants</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/committees-and-groups/fundamental-physical-constants/tgfc-previous-values-and-publications" target=""><span>TGFC - Previous Values and Publications</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/committees-and-groups/fundamental-physical-constants/tgfc-membership" target=""><span>TGFC - Membership</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/committees-and-groups/fundamental-physical-constants/tgfc-activities" target=""><span>TGFC - Activities</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/committees-and-groups/fundamental-physical-constants/tgfc-past-achievements" target=""><span>TGFC - Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/strategic-initiatives/international-data-policy-committee"><span>International Data Policy Committee</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/strategic-initiatives/international-data-policy-committee/data-policy-sources" target=""><span>Background</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/strategic-initiatives/international-data-policy-committee/members"><span>Members</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/strategic-initiatives/international-data-policy-committee/members/past-members" target=""><span>Past Members</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/strategic-initiatives/international-data-policy-committee/meetings-and-conferences" target=""><span>Meetings and Conferences</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/strategic-initiatives/commission-on-standards" target=""><span>Commission on Standards</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/strategic-initiatives/african-open-science" target=""><span>African Open Science Platform</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups/research-data-science-summer-schools"><span>School of Research Data Science</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/san-jose-2019" target=""><span>San José 2019</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/data-steward-school-2019" target=""><span>Data Steward School 2019</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/addis-ababa-2019" target=""><span>Addis Ababa 2019</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/datatrieste-2019" target=""><span>DataTrieste 2019</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/advanced-workshops-2019" target=""><span>Advanced Workshops 2019</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/2018-research-data-science-applied-workshops" target=""><span>2018 Data Science Advanced Workshops</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/datatrieste2018" target=""><span>DataTrieste 2018</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/brisbane-2018" target=""><span>Brisbane 2018</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/kigali-2018" target=""><span>Kigali 2018</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/sao-paulo-2018" target=""><span>Sao Paulo 2018</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups/research-data-science-summer-schools/2017-research-data-schools"><span>2017 Research Data Schools</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups/research-data-science-summer-schools/2017-codata-rda-school-of-research-data"><span>DataTrieste 2017</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/datatrieste-2017-photos" target=""><span>DataTrieste 2017 Photos</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/2017-research-data-science-applied-workshops" target=""><span>2017 Data Science Applied Workshops</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/2017-datasaopaulo" target=""><span>Data São Paulo 2017</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups/research-data-science-summer-schools/2016-research-data-schools"><span>2016 Research Data Schools</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups/research-data-science-summer-schools/first-codata-rda-school-of-research-data-science-ictp-trieste"><span>DataTrieste 2016</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/first-codata-rda-school-of-research-data-science-ictp-trieste/datatrieste-photos" target=""><span>DataTrieste Photos</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/datatrieste-2016-videos" target=""><span>DataTrieste 2016 Videos</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/research-data-science-summer-schools/student-informations" target=""><span>DataTrieste Participants</span></a>
+
+
+</li></ul></li></ul></li></ul></li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups"><span>Task Groups</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research"><span>Linked Open Data for Global Disaster Risk Research</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research/lodgd-membership" target=""><span>LODGD - Membership</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research/loggd-past-achievements" target=""><span>LOGGD - Past Achievements</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research/reviews-and-comments-requested-on-draft-white-paper" target=""><span>Draft White Paper - Gap Analysis</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research/disaster-loss-data-raising-the-standard-a-white-paper" target=""><span>Disaster Loss Data: Raising the Standard - a white paper</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research/drr-and-open-data-newsletter" target=""><span>DRR and Open DATA newsletter</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research/second-white-paper-on-next-generation-disaster-data-infrastructure" target=""><span>Second White Paper on Next Generation Disaster Data Infrastructure</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/linked-open-data-for-global-disaster-risk-research/disaster-data-response" target=""><span>Disaster Data Response</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/preservation-of-and-access-to-scientific-and-technical-data-in-for-with-developing-countries-pastd"><span>PASTD TG</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/preservation-of-and-access-to-scientific-and-technical-data-in-for-with-developing-countries-pastd/pastd-past-achievements" target=""><span>PASTD - Past Achievements</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/preservation-of-and-access-to-scientific-and-technical-data-in-for-with-developing-countries-pastd/pastd-membership" target=""><span>PASTD - Membership</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/agriculture-data"><span>Agriculture Data</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/agriculture-data-membership" target=""><span>Agriculture Data - Membership</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/atg-past-achievements" target=""><span>ATG Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/applied-systems-analysis"><span>Applied Systems Analysis</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/applied-systems-analysis/applied-systems-analysis-memberships" target=""><span>Applied Systems Analysis - memberships</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/applied-systems-analysis/task-group-event" target=""><span>Task Group Event</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/task-groups/smart-cities" target=""><span>Smart Cities</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/drum" target=""><span>DRUM</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/idar" target=""><span>IDAR</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/citizen-science-for-the-sustainable-development-goals"><span>Citizen Science for the Sustainable Development Goals</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/citizen-science-and-crowdsourced-data/members-2" target=""><span>Members</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/previous-tgs"><span>Previous CODATA Task Groups</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/advancing-informatics-for-microbiology"><span>Advancing Informatics for Microbiology</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/advancing-informatics-for-microbiology/part-2" target=""><span>AIM - Further Information</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/advancing-informatics-for-microbiology/aim-membership" target=""><span>AIM - Membership</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/advancing-informatics-for-microbiology/aim-past-achievements" target=""><span>AIM - Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/data-at-risk"><span>Data at Risk</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/data-at-risk/dar-membership" target=""><span>DAR - Membership</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/data-at-risk/dar-past-achievements" target=""><span>DAR - Past Achievements</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/data-at-risk/dar-workshops" target=""><span>DAR - Workshops</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/global-roads-data-development"><span>Global Roads Data Development</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/global-roads-data-development/roads-membership" target=""><span>Global Roads Membership</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/global-roads-data-development/global-roads-past-achievements" target=""><span>Global Roads Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/management-of-physical-objects"><span>Management of Physical Objects</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/management-of-physical-objects/mpo-membership" target=""><span>MPO - Membership</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/anthropometric-data-and-engineering"><span>Anthropometry and Special Populations</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/anthropometric-data-and-engineering/ade-activity-details" target=""><span>Anthropometry - Activity Details</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/anthropometric-data-and-engineering/ade-membership" target=""><span>Anthropometry - Membership</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/task-groups/anthropometric-data-and-engineering/ade-past-achievements" target=""><span>Anthropometry - Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/earth-and-space-science-data-interoperability"><span>Earth and Space Science Data Interoperability</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/earth-and-space-science-data-interoperability/essdi-full-membership" target=""><span>ESSDI - Membership</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/earth-and-space-science-data-interoperability/past-achievements"><span>ESSDI - Past Achievements</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/earth-and-space-science-data-interoperability/past-achievements/essdi-atlas"><span>ESSDI - Atlas</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/earth-and-space-science-data-interoperability/past-achievements/essdi-atlas/essdi-atlas-details" target=""><span>ESSDI - Atlas details</span></a>
+
+
+</li></ul></li></ul></li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/foundational-training-in-research-data-science"><span>Foundational Training in Research Data Science</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/foundational-training-in-research-data-science/training-membership" target=""><span>Training - Membership</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/task-groups/coordinating-data-standards" target=""><span>Coordinating Data Standards</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/task-groups/citizen-science-and-crowdsourced-data"><span>Citizen Science and Crowdsourced Data</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/task-groups/citizen-science-and-crowdsourced-data/citizen-science-membership" target=""><span>Citizen Science - Membership</span></a>
+
+
+</li></ul></li></ul></li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups"><span>Working Groups</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/nanomaterials"><span>Nanomaterials</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/nanomaterials/history-and-workshop" target=""><span>History and Workshop</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/nanomaterials/workshops-2015-2" target=""><span>Workshops 2015</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups/oecd-gsf-sustainable-business-models"><span>OECD GSF Sustainable Business Models</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/working-groups/oecd-gsf-sustainable-business-models/income-sources-and-cost-optimisation" target=""><span>Income Sources and Cost Optimisation</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/oecd-gsf-sustainable-business-models/economic-analysis-of-sustainable-business-models" target=""><span>Economic Analysis of Sustainable Business Models</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/oecd-gsf-sustainable-business-models/project-personnel" target=""><span>Project Personnel</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/working-groups/legal-interoperability" target=""><span>Legal Interoperability</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/standard-glossary-for-research-data-management-iridium" target=""><span>Standard Glossary for Research Data Management</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/working-groups/early-career-data-professionals"><span>Early Career Data Professionals</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/ecdp-core-members" target=""><span>ECDP Core Members</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/early-career-data-professionals/ecdp-past-achievements" target=""><span>ECDP - Past Achievements</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/geo-data-sharing-working-group" target=""><span>GEO Data Sharing Working Group</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/codata-rda-group-on-materials-data-infrastructure-and-interoperability" target=""><span>International Materials Resource Registry (IMMR)</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/fair-data-expert-group" target=""><span>FAIR Data Expert Group</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/fair-data-training"><span>FAIR Data Training</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/fair-data-training/terms4fairskills-workshop-1" target=""><span>Terms4FAIRskills Workshop 1</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/working-groups/go-train" target=""><span>GO TRAIN</span></a>
+
+
+</li></ul></li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/publications"><span>Publications</span></a>
+
+
+<ul>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/publications/data-science-journal"><span>Data Science Journal</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/publications/scope" target=""><span>DSJ Scope</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/dsj-special-collections" target=""><span>DSJ - Special Collections</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/publications/data-science-journal/announcements-of-articles-published" target=""><span>Announcements of articles published</span></a>
+
+
+</li>
+
+<li><a href="http://www.codata.org/publications/data-science-journal/previous-editors-in-chief" target=""><span>Previous Editors in Chief</span></a>
+
+
+</li></ul>
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/publications/codata-history"><span>CODATA History</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/publications/codata-history/codata-obituaries" target=""><span>CODATA Obituaries</span></a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://www.codata.org/publications/newsletters" target=""><span>Newsletters</span></a>
+
+
+</li>
+
+<li class="parent"><a class="parent" href="http://www.codata.org/publications/annual-reports"><span>Annual reports</span></a>
+
+
+<ul>
+
+<li><a href="http://www.codata.org/publications/annual-reports/past-annual-reports" target=""><span>Past Annual Reports</span></a>
+
+
+</li></ul></li></ul>
+</li>
+
+<li><a href="http://www.codata.org/contact-us" target=""><span>Contact</span></a>
+
+
+</li>
+
+<li><a href="http://codata.org/blog/" target="_blank"><span>Blog</span></a>
+
+
+</li>
+</ul>
+
+</div>
+      
+
+
+  </div>
+
+  <div id="main-container">
+      <div id="content">
+
+                      <div class="mt10">
+              <!-- generated by showtime Module start -->
+        <script type="text/javascript">
+        
+        $(document).ready(function(){
+			var lastslide=0;
+			$('ul#slides_1').cycle({ 
+				fx: 'fade',
+				speed:    1000, 
+				timeout:  7000,
+				pager:   '#slideshow_nav_1',
+ 
+				pagerEvent: 'mouseover',
+		
+				fastOnEvent: false,
+				pause: 1,
+				pauseOnPagerHover: 1,
+				prev: '#prev_1',
+				next: '#next_1' 
+			});
+
+            $("#slideshow_1").hover(function() {
+                $("ul#prevnextnav_1").fadeIn();
+            },
+                function() {
+                $("ul#prevnextnav_1").fadeOut();
+            });
+           
+                });
+
+        
+        </script>
+
+        <div id="slideshow_1" class="pics">
+                    
+                    <ul id="prevnextnav_1">
+                    <li id="prev_1"><a href="#">Previous</a></li>
+                    <li id="next_1"><a href="#">Next</a></li>
+            </ul>
+                             <div id="slideshow_nav_1" class="slide_nav_1"></div>
+                 
+            <ul id="slides_1">
+                            <li><a href="http://codata2019.csp.escience.cn/dct/page/1" target="_self"><img width="930" height="272" style="position:absolute; left:0px; top:0px;" 
+					src="http://www.codata.org/uploads/images/slides/beijing_conference_register.png" alt="" title="DEADLINE EXTENDED TO 8 JULY - Presentation and Poster Submissions for CODATA 201" /></a>                </li>
+                             <li><a href="http://www.codata.org/events/conferences/vizafrica-botswana-2019" target="_self"><img width="930" height="272" style="position:absolute; left:0px; top:0px;" 
+					src="http://www.codata.org/uploads/images/slides/vizafricaslideshow (1).png" alt="" title="VizAfrica Botswana 2019: CALL FOR PRESENTATIONS AND POSTERS, DEADLINE 19 August" /></a>                </li>
+                             <li><a href="http://www.codata.org/news/345/62/Registration-Now-Open-for-CODATA-Helsinki-2019-Workshop-on-FAIR-RDM-in-Institutions-Deadline-for-Proposals-for-Presentations-and-Posters-is-Friday-6-September" target="_self"><img width="930" height="272" style="position:absolute; left:0px; top:0px;" 
+					src="http://www.codata.org/uploads/images/slides/helsinki2019-new.png" alt="" title="Registration Now Open for CODATA-Helsinki 2019 Workshop on FAIR RDM in Instituti" /></a>                </li>
+                             <li><a href="http://www.codata.org/news/338/62/Call-for-Applications-to-Host-International-Data-Week-2021-or-2023" target="_blank"><img width="930" height="272" style="position:absolute; left:0px; top:0px;" 
+					src="http://www.codata.org/uploads/images/slides/IDW_host_slide.jpg" alt="http://www.codata.org/news/338/62/Call-for-Applications-to-Host-International-Data-Week-2021-or-2023" title="http://www.codata.org/news/338/62/Call-for-Applications-to-Host-International-Da" /></a>                </li>
+                        </ul>              
+        </div> 
+
+<!-- generated by showtime Module end -->
+
+           </div>
+           
+            <div class="left-window">
+                <h1><span style="font-size: 14.44444465637207px;">News &amp; Articles</span></h1>
+<p><code>
+
+
+<div class="highlightBox">
+<p class="cr"><strong><a href="http://www.codata.org/news/346/62/Registration-Now-Open-for-VizAfrica-2019-Botswana-Deadline-for-Proposals-for-Presentations-and-Posters-is-19-August" title="Registration Now Open for VizAfrica 2019 Botswana - Deadline for Proposals for Presentations and Posters is 19 August">Registration Now Open for VizAfrica 2019 Botswana - Deadline for Proposals for Presentations and Posters is 19 August</a>
+</strong></p>
+
+	
+	<p><div>
+<div><img style="vertical-align: middle; margin: 5px;" src="https://www.cs.ub.bw/redcap/surveys/index.php?pid=258&amp;doc_id_hash=4e0569270786a6f0b0c54dc5c53d6a22e3239711&amp;__passthru=DataEntry%2Fimage_view.php&amp;s=X3DAM3TN33&amp;id=11881" alt="" width="600" height="133" /></div>
+<div>Register Now for VizAfrica 2019 Botswana: <strong><a href="https://is.gd/vizafrica2019" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://is.gd/vizafrica2019&amp;source=gmail&amp;ust=1564825090896000&amp;usg=AFQjCNH-6FK_G1JGkWAR-hzryNg_cm-ufQ">https://is.gd/vizafrica2019</a></strong></div>
+</div>
+<div>
+<div> </div>
+</div>
+<div>
+<div>Submit proposals for presentations and posters: <strong><a href="https://vizafrica.codata.org/2019-Botswana/submit/" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://vizafrica.codata.org/2019-Botswana/submit/&amp;source=gmail&amp;ust=1564825090896000&amp;usg=AFQjCNGW40YoDV4UaFA9VD_T4n2drUSo-A">https://vizafrica.codata.org/2019-Botswana/submit/</a></strong></div>
+</div>
+<div>
+<div> </div>
+</div>
+<div>
+<div>The VizAfrica 2019 Data Visualization Symposium will take place from 18th -19th November 2019 at the University of Botswana Gaborone, Botswana.</div>
+</div>
+<div>
+<div> </div>
+</div>
+<div>
+<div>The theme of the symposium is “Application of Data, Information and Scientific Visualization for Resource Management and Sustainability.”</div>
+</div>
+<div>
+<div> </div>
+</div>
+<div>
+<div>Under this theme, the symposium has six strands or sessions:</div>
+</div>
+<div><ol>
+<li><span style="font-size: 14px;">Climate Change Adaptation and Mitigation</span></li>
+<li><span style="font-size: 14px;">Visualization Techniques</span></li>
+<li><span style="font-size: 14px;">Agriculture, Food and Nutrition Security</span></li>
+<li><span style="font-size: 14px;">Data Analytics, Visualization and Internet of Things (IoTs)</span></li>
+<li><span style="font-size: 14px;">Policy Design, Analysis and Strategic Management</span></li>
+<li><span style="font-size: 14px;">E-health and Universal Health Coverage</span></li>
+</ol></div>
+<div>All the six strands/sessions have: Research, industry, keynote speeches and panel discussions tracks.</div>
+<div>
+<div> </div>
+</div>
+<div>
+<div>To contribute to the wider adoption of visualization, the symposium brings together various actors to engage. In addition, the Summer School scheduled for 11th-15th November 2019, offer training in data analytics and visualization towards capacity building.</div>
+<div> </div>
+</div>
+<p><iframe src="https://www.youtube.com/embed/fE6m14UpMPU" frameborder="0" width="560" height="315"></iframe></p>
+<p>More information at <strong><a href="https://vizafrica.codata.org/" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://vizafrica.codata.org/&amp;source=gmail&amp;ust=1564825090896000&amp;usg=AFQjCNGddqQ2yxrhHiwlaTXEkz9GaXxn_g">https://vizafrica.codata.org/</a> and <a href="http://www.codata.org/events/conferences/vizafrica-botswana-2019" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://www.codata.org/events/conferences/vizafrica-botswana-2019&amp;source=gmail&amp;ust=1564825090896000&amp;usg=AFQjCNE_pLRjUYmuSEmK0EwnoTa_V337YQ">http://www.codata.org/events/conferences/vizafrica-botswana-2019</a></strong></p></p>
+
+
+</div>
+<br />
+
+
+
+<div class="highlightBox">
+<p class="cr"><strong><a href="http://www.codata.org/news/345/62/Registration-Now-Open-for-CODATA-Helsinki-2019-Workshop-on-FAIR-RDM-in-Institutions-Deadline-for-Proposals-for-Presentations-and-Posters-is-Friday-6-September" title="Registration Now Open for CODATA-Helsinki 2019 Workshop on FAIR RDM in Institutions - Deadline for Proposals for Presentations and Posters is Friday 6 September">Registration Now Open for CODATA-Helsinki 2019 Workshop on FAIR RDM in Institutions - Deadline for Proposals for Presentations and Posters is Friday 6 September</a>
+</strong></p>
+
+	
+	<p><div><strong>Register Now for CODATA-Helsinki 2019 Workshop on FAIR RDM in Institutions: <a href="https://www.eventbrite.com/e/codata-helsinki-2019-workshop-on-fair-rdm-in-institutions-registration-66997233529" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.eventbrite.com/e/codata-helsinki-2019-workshop-on-fair-rdm-in-institutions-registration-66997233529&amp;source=gmail&amp;ust=1564661888208000&amp;usg=AFQjCNH7C5tUHZ2OWH1RHm8qdz2C2zUfYw">https://www.eventbrite.com/e/codata-helsinki-2019-workshop-on-fair-rdm-in-institutions-registration-66997233529</a><br /><br />Submit proposals for presentations and posters: <a href="https://conference.codata.org/Helsinki-CODATA-2019/submit/" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://conference.codata.org/Helsinki-CODATA-2019/submit/&amp;source=gmail&amp;ust=1564661888208000&amp;usg=AFQjCNE2ke0ykldbAO698lEncLkagN22XA">https://conference.codata.org/Helsinki-CODATA-2019/submit/</a></strong></div>
+<div> </div>
+<div><img style="float: right; margin: 5px;" src="http://www.codata.org/uploads/images/finnish_national_archive_reading.png" alt="" width="300" height="213" />The CODATA-Helsinki Workshop on FAIR RDM in Institutions will take place at the National Archives of Finland on 20-21 October 2019. It is a collocated event before the 14th RDA Plenary Meeting, Helsinki, Finland.</div>
+<div><br />The organisers and programme committee invites presentations and posters for this workshop. The deadline for proposals is Friday 6 September. Given the relatively short time before the event, there will not be an extension. We aim to notify accepted speakers by Friday 13 September.</div>
+<div> </div>
+<div>
+<h1><strong>Research Data and Research Institutions</strong></h1>
+Research data are an asset for research institutions. Their creation, management and stewardship imposes considerable responsibilities and requires partnership and alignment with other institutions and research initiatives globally. All over the world universities and libraries have started the task of developing research data services, many aspiring to cover the entire research lifecycle: support in writing proposals and data management plans, repository infrastructures for the storage of data, support in publishing data, assignment of persistent identifiers, lecturing in data management, etc. This broad scope means that such services are often seen as requiring a joint effort from university, library, IT centre, faculties and other stakeholders.</div>
+<div><br />FAIR Research Data Management involves robust planning, policies, infrastructure, training and support. Institutes that produce and consume data are required to ensure seamless accessibility to data and ensure practices that foster its reuse. Often institutes are less aware of existing good practices and progress in implementing Institutional Research Data Management. Improved awareness and knowledge sharing can help reduce duplication in initiatives, and avoid redundant and inefficient practices at various points in the data lifecycle. There is a widely recognised need to assist knowledge sharing between institutions and to do this in an increasingly structured way, by using (and where necessary refining) maturity models such as the DCC RISE. Equally, effective knowledge sharing can help reduce the gap between rich and poor institutions and between universities or research organisations in economically advantaged and disadvantaged contexts. Effective RDM practices can also make the process for sharing and reusing data more streamlined and efficient, thereby enabling research to be more efficient and driving greater impacts to be achieved out of research.<br />It is timely for actors in the various dimensions of such initiatives internationally to share their practical experiences, research and insights.</div>
+<div><br />
+<h1><strong>Themes and Guidelines for Proposals</strong></h1>
+Please consult the call for presentations and posters for themes and guidelines for submissions: <a href="https://conference.codata.org/conference/Helsinki-CODATA-2019/call_for_presentations/" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://conference.codata.org/conference/Helsinki-CODATA-2019/call_for_presentations/&amp;source=gmail&amp;ust=1564661888208000&amp;usg=AFQjCNEn7lnCpN-TzV2ZwhQjWyhcv4jC6w">https://conference.codata.org/conference/Helsinki-CODATA-2019/call_for_presentations/</a></div>
+<div><br />
+<h1><strong>Workshop Programme</strong></h1>
+The event will start at 12:30 (TBC) on Sunday 20 October and will conclude at 18:00 (TBC) on Monday 21 October. the programme will feature at least two keynotes, parallel sessions of presentations on the workshop themes, and discursive workshop activities around the issues of benchmarking and maturity models for FAIR RDM in Institutions. Refreshments on both days and lunch on Monday 21 October will be provided.</div>
+<div><br />
+<h1><strong>Registration Fees</strong></h1>
+In order to contribute towards our costs (conference management system, refreshment breaks and lunch on Mon 21 October), but also to deter spurious and speculative registrations, which on previous events have greatly added to our workload, the programme committee has agreed to charge a registration fee of 40 euros.</div>
+<div><br />
+<h1><strong>Programme Committee</strong></h1>
+</div>
+<div>
+<ul>
+<li>Jan Brase, University of Göttingen</li>
+<li>Mercè Crosas, Harvard University</li>
+<li>Claudia Engelhardt, University of Göttingen</li>
+<li>Jane Greenberg, Drexel University</li>
+<li>Simon Hodson, CODATA</li>
+<li>Heidi Laine, CSC</li>
+<li>Liu Chuang, Institute of Geography, Chinese Academy of Science</li>
+<li>Devika Madalli, Indian Statistical Institute</li>
+<li>Pekka Orponen, Aalto University</li>
+<li>Limor Peer, Yale University</li>
+<li>Jan Lucas van der Ploeg, University Medical Center Groningen</li>
+<li>Robin Rice, University of Edinburgh</li>
+<li>Annette Strauch, University of Hildesheim</li>
+<li>Minglu Wang, York University</li>
+<li>James Wilson, UCL</li>
+<li>Keith Russell, ARDC</li>
+<li>Michael Witt, Purdue University</li>
+</ul>
+</div></p>
+
+
+</div>
+<br />
+
+
+
+<div class="highlightBox">
+<p class="cr"><strong><a href="http://www.codata.org/news/344/62/FAIRsFAIR-Workshop-Building-the-data-landscape-of-the-future-FAIR-Semantics-and-FAIR-Repositories" title="FAIRsFAIR Workshop: Building the data landscape of the future: FAIR Semantics and FAIR Repositories">FAIRsFAIR Workshop: Building the data landscape of the future: FAIR Semantics and FAIR Repositories</a>
+</strong></p>
+
+	
+	<p><div class="field field-name-field-image field-type-image field-label-hidden">
+<div class="field-items">
+<div class="field-item even"><img src="https://www.fairsfair.eu/sites/default/files/styles/responsive/public/Building the data landscape of%20the%20future.png?itok=B3qM3O8D" alt="" width="100%" height="" /></div>
+</div>
+</div>
+<div class="field field-name-field-date field-type-datetime field-label-inline clearfix">
+<div class="field-label"><strong>Date: </strong>22 October 2019 - 09:00</div>
+</div>
+<div class="field field-name-field-evant-location field-type-text field-label-inline clearfix">
+<div class="field-label"><strong>Location:</strong>  Espoo, Finland<span style="font-size: 14px;"> </span></div>
+</div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even">
+<p dir="ltr">Help us design the data landscape of the future!</p>
+<p dir="ltr">We're gathering recommendations, features and best practices for FAIR semantic artifacts and data repositories/infrastructures! </p>
+<p dir="ltr"><a href="https://www.fairsfair.eu/form/building-data-landscape-future-registration" target="_blank">Register now ►</a></p>
+<p dir="ltr">Producing FAIR (Findable, Accessible, Interoperable, Reusable) scientific data depends on the use of data repositories and domain-specific semantic models or artifacts such as ontologies, thesauri, and controlled vocabularies to properly describe data.  When artifacts and repositories are heterogeneous it's impossible to create the harmonised framework needed to achieve FAIRness.</p>
+<ul dir="ltr">
+<li>How should a repository look to allow for truly FAIR data?</li>
+<li>How can we enable distributed queries and data aggregation across heterogeneous repositories?</li>
+<li>Semantics are a vital part of making other data FAIR. But how FAIR are our semantic artifacts? What can we recommend to ensure we build FAIR-by-design semantic artifacts?</li>
+</ul>
+<p dir="ltr">Semantics experts, maintainers of semantic registries and data repositories, and representatives from infrastructures are cordially invited to brainstorm with us about how to remedy the shortcomings for FAIRness and interoperability of current semantic resources/artifacts and data repositories. The outcomes from the two parallel sessions, one tackling aspects of FAIR semantics and the other FAIR and interoperable repositories, will inform our initial recommendations.   </p>
+<p>This workshop is organised by the FAIRsFAIR work package “ <a href="https://www.fairsfair.eu/fair-practices-semantics-interoperability-and-services">FAIR Practices: Semantics, Interoperability, and Services</a>” and will be held as a <a href="https://www.rd-alliance.org/plenaries/rdas-14th-plenary-helsinki-finland">co-located event to the RDA plenary</a> on October 22, 2019.</p>
+<p><strong>Time:</strong> 9:00 to 17:30<br /><strong style="font-size: 14px;">Place:</strong> Espoo, Finland.<br /><strong style="font-size: 14px;">Venue:</strong> CSC (<a style="font-size: 14px;" href="https://www.csc.fi/">https://www.csc.fi/</a> ) (10 minutes' walk from Aalto University, venue for most of the RDA events.)</p>
+<p>The event is free of charge but places are limited to 60 people, therefore registration is needed.</p>
+<p><a href="https://www.fairsfair.eu/form/building-data-landscape-future-registration" target="_blank">Register now ►</a></p>
+<h2>Getting there</h2>
+<p>The easiest way to get to CSC is by metro (M1 and M2). The stop is Keilaniemi, exit G. All metros, both to the direction of Tapiola and Matinkylä from the Helsinki City Centre, stop at Keilaniemi station. Please find more detailed timetables and routes from the Helsinki Region Transport's <em>Journey Planner</em>: <a href="http://www.reittiopas.fi/en/" target="_blank">http://www.reittiopas.fi/en/</a></p>
+<p>Airport to the city. From the Helsinki Airport you can reach the city centre by train, bus, taxi or car. See detailed information form the Helsinki Airport website <a href="http://www.finavia.fi/en/airports/helsinki-airport/parking-access/train-and-buses" target="_blank">www.finavia.fi/en/airports/helsinki-airport/parking-access/train-and-buses</a> and <a href="http://www.finavia.fi/en/airports/helsinki-airport/parking-access/taxis" target="_blank">www.finavia.fi/en/airports/helsinki-airport/parking-access/taxis.</a></p>
+<h2>Recommended Hotels</h2>
+<p>The closest hotel of CSC is <a href="http://www.radissonblu.fi/hotelli-espoo" target="_blank">Radisson Blu Espoo</a>, which is in a walking distance (500m). Another hotel close to the venue (1,8 km) is <a href="http://www.sokoshotels.fi/hotellit/espoo/" target="_blank">Sokos Hotel Tapiola Garden</a>.</p>
+<p>Other hotels are located in the Helsinki City Centre, with a frequent metro connection to Keilaranta, Espoo:</p>
+<ul>
+<li><a href="https://www.scandichotels.com/hotels/finland/helsinki/scandic-simonkentta" target="_blank">Scandic Simonkenttä</a></li>
+<li><a href="http://www.radissonblu.fi/royalhotelli-helsinki" target="_blank">Radisson Blu Royal</a></li>
+<li><a href="http://www.sokoshotelpresidentti.fi/" target="_blank">Sokos Hotel Presidentti</a></li>
+<li><a href="http://www.sokoshotels.fi/?id=810" target="_blank">Sokos Hotel Vaakuna</a></li>
+</ul>
+<p>Also nearby: <a href="http://www.finland.holidayinn.com/hotellit/helsinki-west/fi_FI/helsinki-west/" target="_blank">Holiday Inn Helsinki West.</a></p>
+<p>Many of the hotels in the city centre are in a walking distance from Kamppi or Rautatientori metro stations.</p>
+<p dir="ltr">If you have any questions don’t hesitate to contact: event-support at csc.fi</p>
+</div>
+</div>
+</div></p>
+
+
+</div>
+<br />
+
+
+
+<div class="highlightBox">
+<p class="cr"><strong><a href="http://www.codata.org/news/343/62/FAIRsFAIR-Open-Call-for-Data-Repositories" title="FAIRsFAIR Open Call for Data Repositories">FAIRsFAIR Open Call for Data Repositories</a>
+</strong></p>
+
+	
+	<p><p dir="ltr"><img style="float: right; margin: 5px;" src="https://www.fairsfair.eu/sites/all/themes/arcadia/logo.png" alt="" width="600" height="124" />Would you like to get dedicated support for your data repository to contribute to a culture change necessary to achieve wide adoption of FAIR practices within the EOSC and beyond? </p>
+<p dir="ltr">The FAIRsFAIR project started to work on practical solutions for the use of the FAIR data principles throughout the research data life cycle. Emphasis is on fostering FAIR data culture and the uptake of good practices in making data FAIR. FAIRsFAIR will play a key role in the development of standards for FAIR Certification of repositories and their data holdings, contributing to policies and practices that will turn the EOSC programme into a functioning infrastructure.</p>
+<p dir="ltr">Through this Open Call for Participation FAIRsFAIR seeks to support data repositories with two different initiatives:</p>
+<ol>
+<li><span style="font-size: 14px;">Support for data repositories towards achieving CoreTrustSeal certification (</span><strong><a style="font-size: 14px;" href="http://www.coretrustseal.org/" target="_blank">www.coretrustseal.org</a></strong><span style="font-size: 14px;">): a financial incentive as well as dedicated support for pre-submission to the CoreTrustSeal certification process;</span></li>
+<li><span style="font-size: 14px;">Support for the “FAIRification” of your repositories by discussing and designing implementation features that enable and increase repository interoperability. This will be achieved through building and testing prototypes of an interoperability layer for data repositories, and will ultimately improve the FAIRness of data in repositories that enable FAIR data.</span></li>
+</ol>
+<p dir="ltr">We welcome repository managers and representatives to apply to one, or if applicable to both of the support initiatives below. Registration deadline is Friday, 30th of August 2019.</p>
+<p>Any questions can be addressed to <a href="mailto:opencall@fairsfair.eu">opencall@fairsfair.eu</a>.  </p>
+<p><strong>CODATA is a member of the FAIRsFAIR project.  Original announcement on the FAIRsFAIR website <a href="https://www.fairsfair.eu/fairsfair-open-call-data-repositories" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.fairsfair.eu/fairsfair-open-call-data-repositories&amp;source=gmail&amp;ust=1564484372098000&amp;usg=AFQjCNHJDSVVIfC1zMcWffgiOc5K0JPoEw">https://www.fairsfair.eu/fairsfair-open-call-data-repositories</a></strong></p></p>
+
+
+</div>
+<br />
+
+
+
+<div class="highlightBox">
+<p class="cr"><strong><a href="http://www.codata.org/news/342/62/The-Digital-Preservation-Coalition-DPC-invites-the-digital-preservation-community-around-the-world-to-submit-nominations-for-its-2019-edition-of-the-BitList" title="The Digital Preservation Coalition (DPC) invites the digital preservation community around the world to submit nominations for its 2019 edition of the &lsquo;BitList.&rsquo;">The Digital Preservation Coalition (DPC) invites the digital preservation community around the world to submit nominations for its 2019 edition of the ‘BitList.’</a>
+</strong></p>
+
+	
+	<p><p><img style="float: right; margin: 5px;" src="http://www.codata.org/uploads/images/dpc-digital.jpeg" alt="" width="300" height="66" />The Digital Preservation Coalition (DPC) is inviting the digital preservation community around the world to submit nominations for its 2019 edition of the ‘BitList.’</p>
+<p>The Bit List is the <a href="https://www.dpconline.org/our-work/bit-list/">DPC’s Global List of Digitally Endangered Species.</a> Nominations to the BitList are being sought through the summer before being published on World Digital Preservation Day (WDPD2019) on 7th November 2019.</p>
+<p>The ‘BitList’ highlights the need for action to preserve high-value digital content that is critically endangered, whilst celebrating the progress the digital preservation community has made to ensure a secure digital legacy.</p>
+<p>Members of the digital preservation community around the world are invited to add their nominations to this list. Current entries include content which has no obvious long-term home (<a id="_Toc531205163"></a><a href="https://www.dpconline.org/our-work/bit-list/critically-endangered">Community Archives and Community-Generated Content</a>), different digital formats (<a href="https://www.dpconline.org/our-work/bit-list/concern">Websites running Flash, as the plugin becomes obsolete</a>), or content where the value is recognized but the efforts to preserve have been incomplete (<a href="https://www.dpconline.org/our-work/bit-list/critically-endangered">unpublished Research Outputs</a>).  Nominations for 2019 could combine all of these themes, such as <a href="https://www.dpconline.org/our-work/bit-list/endangered">Materials Posted to Current Web-based Social Media Platforms or Equivalents</a>, as there is still so little in place to capture the volume, complexity and context of this information.</p>
+<p>Nominators are asked to ascribe a <a class="external" title="External Link (opens in new window): http://www.dpconline.org/our-work/digitally-endangered-species/risk-classifications" href="http://www.dpconline.org/our-work/digitally-endangered-species/risk-classifications" target="_blank">risk ‘level’ to the digital material</a> and think about the significance and impact of its loss. </p>
+<p>“Digital materials, and the opportunities they create, are fragile,” explains Executive Director of the DPC William Kilbride, “and the lifecycles of technology are typically quite short.  The good news is that the digital preservation community has an impressive track record of providing the sorts of tools and services which will protect many digital species from extinction.  But these simple steps are not well known.  By drawing attention to the risks that digital assets face, we want to draw attention to the simple and sensible steps that we can take to securing them”</p>
+<p>Digital objects face multiple risks. In the past, nominations have been thematic rather than self-contained and frequently they overlap. For example, in 2018 politically sensitive data was listed, alongside unpublished research outputs, and material on obsolete media. In theory a digital object could fall into all three of these groups, such as politically inconvenient but unpublished data from research into climate change.  So any given object can face a multitude of aggravating conditions which raise the threat level.</p>
+<p>Once the nominations have been collected and collated, an international panel of digital preservation experts will evaluate the entries, before arriving at their final list which will be published on 7th November.</p>
+<p>Organized by the DPC and supported by digital preservation networks around the world, WDPD2019 is open to participation across all sectors, from anyone interested in securing our digital legacy. </p>
+<p>WDPD2019 brings together individuals and institutions from across the world to celebrate collections preserved, access maintained, and the understanding fostered by preserving digital materials. In addition to the publication of the DPC’s BitList, data creators, curators and consumers from around the world will be invited to showcase their own work, aligned with this year’s theme of ‘At-Risk Materials’ through blog posts on the DPC website, as well as tweets and photos posted to Instagram using the hashtag #WDPD2019. </p>
+<p>This activity is just one of the ways the Coalition raises awareness of the strategic, cultural and technological issues which make up the digital preservation challenge.  The DPC also supports members through other advocacy activities, workforce development, capacity-building and partnership; helping members to deliver resilient long-term access to digital content and services and derive enduring value from their digital collections. A detailed program and more information about World Digital Preservation Day will be issued over the coming months.</p>
+<p class="btn"><a class="external" title="External Link (opens in new window): https://dpcoalition.typeform.com/to/I255G8" href="https://dpcoalition.typeform.com/to/I255G8" target="_blank"><strong>MAKE YOUR NOMINATION FOR THE DPC’S DIGITALLY ENDANGERED SPECIES BY FRIDAY 30TH AUGUST</strong></a></p>
+<p>Join the twitter conversation about the Digitally Endangered Species list using the hashtag <a class="external" title="External Link (opens in new window): https://twitter.com/search?q=bitlist" href="https://twitter.com/search?q=bitlist" target="_blank">#BitList</a> and <a class="external" title="External Link (opens in new window): https://twitter.com/search?q=%23IDPD17&amp;src=typd" href="https://twitter.com/search?q=%23IDPD17&amp;src=typd" target="_blank">#WDPD2019</a></p>
+<p>To get involved in other World Digital Preservation Day activities:</p>
+<ul>
+<li>Visit the event page on the DPC website: <a class="external" title="External Link (opens in new window): http://www.dpconline.org/events/world-digital-preservation-day" href="http://www.dpconline.org/events/world-digital-preservation-day" target="_blank">http://www.dpconline.org/events/world-digital-preservation-day</a></li>
+<li>Follow the hashtag <a class="external" title="External Link (opens in new window): https://twitter.com/search?q=%23IDPD17&amp;src=typd" href="https://twitter.com/search?q=%23IDPD17&amp;src=typd" target="_blank">#WDPD2019</a> and <a class="external" title="External Link (opens in new window): https://twitter.com/search?q=bitlist" href="https://twitter.com/search?q=bitlist" target="_blank">#BitList</a> on Twitter for updates</li>
+<li>Or contact <a href="mailto:sarah.middleton@dpconline.org">sarah.middleton@dpconline.org</a> for more details</li>
+</ul></p>
+
+
+</div>
+<br />
+
+<p><a href="http://www.codata.org/about-codata/news">Read more CODATA news</a></p></code></p>            </div>
+
+            <div class="right-window">
+                <p><p> <a class="twitter-timeline" href="https://twitter.com/CODATANews" data-widget-id="473929214417063938">Tweets by @CODATANews</a></p>
+<script type="text/javascript">// <![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+// ]]></script>
+<p></p></p>
+            </div>
+  
+      </div>
+
+      <div id="footer">
+          <p class="fl">Except where otherwise noted, content on this website is licensed under a Creative Commons Attribution 4.0 International License &lt;<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a>&gt; by CODATA | <a href="http://www.icsu.org">ICSU</a> | <a href="http://www.codata.org/sitemap">Sitemap</a> | <a class="backToTop" href="javascript: return false;">Back to top</a> | <a href="http://www.creative-designs.ca">Website Design Ottawa</a> by <a href="http://www.creative-designs.ca">Creative Designs</a></p>
+<p>
+</p>
+      </div>
+
+  </div>
+  </div>
+
+  </body>
+</html>

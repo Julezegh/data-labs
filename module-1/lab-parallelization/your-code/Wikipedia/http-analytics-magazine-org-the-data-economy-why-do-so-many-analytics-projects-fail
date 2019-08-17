@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+
+<!-- BEGIN html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+	<!-- BEGIN head -->
+	<head>
+		<!-- Title -->
+		<title>
+			The Data Economy: Why do so many analytics projects fail? | Analytics Magazine		</title>
+
+		<!-- Meta Tags -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		
+		<!-- Favicon -->
+					<link rel="shortcut icon" href="http://analytics-magazine.org/wp-content/uploads/2017/03/Analytics_Informs_Logo_blue-transparent-1.png" type="image/x-icon" />
+				
+		<link rel="alternate" type="application/rss+xml" href="http://analytics-magazine.org/feed/" title="Analytics Magazine latest posts" />
+		<link rel="alternate" type="application/rss+xml" href="http://analytics-magazine.org/comments/feed/" title="Analytics Magazine latest comments" />
+		<link rel="pingback" href="http://analytics-magazine.org/xmlrpc.php" />
+
+		
+<!-- This site is optimized with the Yoast SEO plugin v9.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://analytics-magazine.org/the-data-economy-why-do-so-many-analytics-projects-fail/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The Data Economy: Why do so many analytics projects fail? - Analytics Magazine" />
+<meta property="og:description" content="July/August 2014 Key considerations for deep analytics on big data, learning and insights. By (l-r) Haluk Demirkan and Bulent Dal What is big data? Big data, which means many things" />
+<meta property="og:url" content="http://analytics-magazine.org/the-data-economy-why-do-so-many-analytics-projects-fail/" />
+<meta property="og:site_name" content="Analytics Magazine" />
+<meta property="article:tag" content="big data" />
+<meta property="article:tag" content="deep analytics" />
+<meta property="article:tag" content="value" />
+<meta property="article:tag" content="variability" />
+<meta property="article:tag" content="variety" />
+<meta property="article:tag" content="velocity" />
+<meta property="article:tag" content="veracity" />
+<meta property="article:tag" content="volume" />
+<meta property="article:section" content="July-August 2014" />
+<meta property="article:published_time" content="2014-07-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-07-13T16:34:53+00:00" />
+<meta property="og:updated_time" content="2016-07-13T16:34:53+00:00" />
+<meta property="og:image" content="http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_haluk-demirkan.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="July/August 2014 Key considerations for deep analytics on big data, learning and insights. By (l-r) Haluk Demirkan and Bulent Dal What is big data? Big data, which means many things" />
+<meta name="twitter:title" content="The Data Economy: Why do so many analytics projects fail? - Analytics Magazine" />
+<meta name="twitter:image" content="http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_haluk-demirkan.jpg" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"http://analytics-magazine.org/","sameAs":[],"@id":"http://analytics-magazine.org/#organization","name":"Lionheart Publishing, Inc.","logo":""}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Analytics Magazine &raquo; Feed" href="http://analytics-magazine.org/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/analytics-magazine.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=00f5e2b20f8761f1c399c549e253887f"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://analytics-magazine.org/wp-includes/css/dist/block-library/style.min.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='cprp_style-css'  href='http://analytics-magazine.org/wp-content/plugins/cp-related-posts/styles/cprp.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='widgetopts-styles-css'  href='http://analytics-magazine.org/wp-content/plugins/widget-options/assets/css/widget-options.css' type='text/css' media='all' />
+<link rel='stylesheet' id='us-plugin-styles-css'  href='http://analytics-magazine.org/wp-content/plugins/ultimate-social-deux/public/assets/css/style.css?ver=5.1.2' type='text/css' media='all' />
+<style id='us-plugin-styles-inline-css' type='text/css'>
+.us_sticky .us_wrapper{background-color:#ffffff;}.us_floating .us_wrapper .us_button{width:45px;-webkit-transition:width 200ms ease-in-out,background-color 400ms ease-out;-moz-transition:width 200ms ease-in-out,background-color 400ms ease-out;-o-transition:width 200ms ease-in-out,background-color 400ms ease-out;transition:width 200ms ease-in-out,background-color 400ms ease-out;}.us_floating .us_wrapper .us_button:hover{width:90px;-webkit-transition:width 200ms ease-in-out,background-color 400ms ease-out;-moz-transition:width 200ms ease-in-out,background-color 400ms ease-out;-o-transition:width 200ms ease-in-out,background-color 400ms ease-out;transition:width 200ms ease-in-out,background-color 400ms ease-out;}.us_facebook .us_share,.us_facebook{background-color:#3b5998;}.us_facebook:hover .us_share,.us_facebook:hover{background-color:#008000;}.us_twitter .us_share,.us_twitter{background-color:#00ABF0;}.us_twitter:hover .us_share,.us_twitter:hover{background-color:#008000;}.us_google .us_share,.us_google{background-color:#D95232;}.us_google:hover .us_share,.us_google:hover{background-color:#008000;}.us_delicious .us_share,.us_delicious{background-color:#66B2FD;}.us_delicious:hover .us_share,.us_delicious:hover{background-color:#008000;}.us_stumble .us_share,.us_stumble{background-color:#E94B24;}.us_stumble:hover .us_share,.us_stumble:hover{background-color:#008000;}.us_linkedin .us_share,.us_linkedin{background-color:#1C86BC;}.us_linkedin:hover .us_share,.us_linkedin:hover{background-color:#008000;}.us_pinterest .us_share,.us_pinterest{background-color:#AE181F;}.us_pinterest:hover .us_share,.us_pinterest:hover{background-color:#008000;}.us_buffer .us_share,.us_buffer{background-color:#000000;}.us_buffer:hover .us_share,.us_buffer:hover{background-color:#008000;}.us_reddit .us_share,.us_reddit{background-color:#CEE3F8;}.us_reddit:hover .us_share,.us_reddit:hover{background-color:#008000;}.us_vkontakte .us_share,.us_vkontakte{background-color:#537599;}.us_vkontakte:hover .us_share,.us_vkontakte:hover{background-color:#008000;}.us_mail .us_share,.us_mail{background-color:#666666;}.us_mail:hover .us_share,.us_mail:hover{background-color:#008000;}.us_love .us_share,.us_love{background-color:#FF0000;}.us_love:hover .us_share,.us_love:hover{background-color:#008000;}.us_pocket .us_share,.us_pocket{background-color:#ee4056;}.us_pocket:hover .us_share,.us_pocket:hover{background-color:#008000;}.us_tumblr .us_share,.us_tumblr{background-color:#529ecc;}.us_tumblr:hover .us_share,.us_tumblr:hover{background-color:#008000;}.us_print .us_share,.us_print{background-color:#60d0d4;}.us_print:hover .us_share,.us_print:hover{background-color:#008000;}.us_flipboard .us_share,.us_flipboard{background-color:#c10000;}.us_flipboard:hover .us_share,.us_flipboard:hover{background-color:#008000;}.us_comments .us_share,.us_comments{background-color:#b69823;}.us_comments:hover .us_share,.us_comments:hover{background-color:#008000;}.us_feedly .us_share,.us_feedly{background-color:#414141;}.us_feedly:hover .us_share,.us_feedly:hover{background-color:#008000;}.us_youtube:hover{background-color:#008000;}.us_youtube{background-color:#cc181e;}.us_vimeo{background-color:#1bb6ec;}.us_vimeo:hover{background-color:#008000;}.us_behance{background-color:#1769ff;}.us_behance:hover{background-color:#008000;}.us_ok .us_share,.us_ok{background-color:#f2720c;}.us_ok:hover .us_share,.us_ok:hover{background-color:#008000;}.us_weibo .us_share,.us_weibo{background-color:#e64141;}.us_weibo:hover .us_share,.us_weibo:hover{background-color:#008000;}.us_managewp .us_share,.us_managewp{background-color:#098ae0;}.us_managewp:hover .us_share,.us_managewp:hover{background-color:#008000;}.us_xing .us_share,.us_xing{background-color:#026466;}.us_xing:hover .us_share,.us_xing:hover{background-color:#008000;}.us_whatsapp .us_share,.us_whatsapp{background-color:#34af23;}.us_whatsapp:hover .us_share,.us_whatsapp:hover{background-color:#008000;}.us_meneame .us_share,.us_meneame{background-color:#ff6400;}.us_meneame:hover .us_share,.us_meneame:hover{background-color:#008000;}.us_digg .us_share,.us_digg{background-color:#000000;}.us_digg:hover .us_share,.us_digg:hover{background-color:#008000;}.us_dribbble{background-color:#f72b7f;}.us_dribbble:hover{background-color:#008000;}.us_envato{background-color:#82b540;}.us_envato:hover{background-color:#008000;}.us_github{background-color:#201e1f;}.us_github:hover{background-color:#008000;}.us_soundcloud{background-color:#ff6f00;}.us_soundcloud:hover{background-color:#008000;}.us_instagram{background-color:#48769c;}.us_instagram:hover{background-color:#008000;}.us_feedpress{background-color:#ffafaf;}.us_feedpress:hover{background-color:#008000;}.us_mailchimp{background-color:#6dc5dc;}.us_mailchimp:hover{background-color:#008000;}.us_flickr{background-color:#0062dd;}.us_flickr:hover{background-color:#008000;}.us_members{background-color:#0ab071;}.us_members:hover{background-color:#008000;}.us_more,.us_more .us_share{background-color:#53B27C;}.us_more:hover,.us_more:hover .us_share{background-color:#008000;}.us_posts{background-color:#924e2a;}.us_posts:hover{background-color:#008000;}.us_facebook a{color:#3b5998;}.us_facebook a:hover{color:#008000;}.us_twitter a{color:#00ABF0;}.us_twitter a:hover{color:#008000;}.us_google a{color:#D95232;}.us_google a:hover{color:#008000;}.us_delicious a{color:#66B2FD;}.us_delicious a:hover{color:#008000;}.us_stumble a{color:#E94B24;}.us_stumble a:hover{color:#008000;}.us_linkedin a{color:#1C86BC;}.us_linkedin a:hover{color:#008000;}.us_pinterest a{color:#AE181F;}.us_pinterest a:hover{color:#008000;}.us_buffer a{color:#000000;}.us_buffer a:hover{color:#008000;}.us_reddit a{color:#CEE3F8;}.us_reddit a:hover{color:#008000;}.us_vkontakte a{color:#537599;}.us_vkontakte a:hover{color:#008000;}.us_mail a{color:#666666;}.us_mail a:hover{color:#008000;}.us_love a,.us_love{color:#FF0000;}.us_love a:hover,.us_love:hover{color:#008000;}.us_pocket a{color:#ee4056;}.us_pocket a:hover{color:#008000;}.us_tumblr a{color:#529ecc;}.us_tumblr a:hover{color:#008000;}.us_print a{color:#60d0d4;}.us_print a:hover{color:#008000;}.us_flipboard a{color:#c10000;}.us_flipboard a:hover{color:#008000;}.us_comments a,.us_comments{color:#b69823;}.us_comments a:hover,.us_comments:hover{color:#008000;}.us_feedly a{color:#414141;}.us_feedly a:hover{color:#008000;}.us_youtube a{color:#cc181e;}.us_youtube a:hover{color:#008000;}.us_vimeo a{color:#1bb6ec;}.us_vimeo a:hover{color:#008000;}.us_behance a{color:#1769ff;}.us_behance a:hover{color:#008000;}.us_ok a{color:#f2720c;}.us_ok a:hover{color:#008000;}.us_weibo a{color:#e64141;}.us_weibo a:hover{color:#008000;}.us_managewp a{color:#098ae0;}.us_managewp a:hover{color:#008000;}.us_xing a{color:#026466;}.us_xing a:hover{color:#008000;}.us_whatsapp a{color:#34af23;}.us_whatsapp a:hover{color:#008000;}.us_meneame a{color:#ff6400;}.us_meneame a:hover{color:#008000;}.us_digg a{color:#000000;}.us_digg a:hover{color:#008000;}.us_dribbble a{ color:#f72b7f;}.us_dribbble a:hover{ color:#008000;}.us_envato a{color:#82b540;}.us_envato a:hover{color:#008000;}.us_github a{color:#201e1f;}.us_github a:hover{color:#008000;}.us_soundcloud a{color:#ff6f00;}.us_soundcloud a:hover{color:#008000;}.us_instagram a{color:#48769c;}.us_instagram a:hover{color:#008000;}.us_feedpress{color:#ffafaf;}.us_feedpress:hover{color:#008000;}.us_mailchimp{color:#6dc5dc;}.us_mailchimp:hover{color:#008000;}.us_flickr a{color:#0062dd;}.us_flickr a:hover{color:#008000;}.us_members{color:#0ab071;}.us_members:hover{color:#008000;}.us_more a{color:#53B27C;}.us_more a:hover{color:#008000;}.us_posts{color:#924e2a;}.us_posts:hover{color:#008000;}
+</style>
+<link rel='stylesheet' id='google-fonts-2-css'  href='http://fonts.googleapis.com/css?family=Titillium+Web&#038;subset=latin&#038;ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='reset-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/css/reset.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://analytics-magazine.org/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='main-stylesheet-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/css/main-stylesheet.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcode-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/css/shortcode.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='lightbox-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/css/lightbox.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='dat-menu-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/css/dat-menu.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/css/responsive.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='ie-only-styles-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/css/ie-ancient.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='style-css'  href='http://analytics-magazine.org/wp-content/themes/legatus-theme/style.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<link rel='stylesheet' id='upw_theme_standard-css'  href='http://analytics-magazine.org/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=00f5e2b20f8761f1c399c549e253887f' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ot = {"THEME_NAME":"legatus","adminUrl":"http:\/\/analytics-magazine.org\/wp-admin\/admin-ajax.php","gallery_id":"","galleryCat":"","imageUrl":"http:\/\/analytics-magazine.org\/wp-content\/themes\/legatus-theme\/images\/","cssUrl":"http:\/\/analytics-magazine.org\/wp-content\/themes\/legatus-theme\/css\/","themeUrl":"http:\/\/analytics-magazine.org\/wp-content\/themes\/legatus-theme"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var us_script = {"ajaxurl":"http:\/\/analytics-magazine.org\/wp-admin\/admin-ajax.php","tweet_via":"","sharrre_url":"http:\/\/analytics-magazine.org\/wp-admin\/admin-ajax.php","success":"Great work! Your message was sent.","trying":"Trying to send email...","total_shares_text":"Shares","facebook_height":"500","facebook_width":"900","twitter_height":"500","twitter_width":"900","googleplus_height":"500","googleplus_width":"900","delicious_height":"550","delicious_width":"550","stumble_height":"550","stumble_width":"550","linkedin_height":"550","linkedin_width":"550","pinterest_height":"320","pinterest_width":"720","buffer_height":"500","buffer_width":"900","reddit_height":"500","reddit_width":"900","vkontakte_height":"500","vkontakte_width":"900","printfriendly_height":"500","printfriendly_width":"1045","pocket_height":"500","pocket_width":"900","tumblr_height":"500","tumblr_width":"900","flipboard_height":"500","flipboard_width":"900","weibo_height":"500","weibo_width":"900","xing_height":"500","xing_width":"900","ok_height":"500","ok_width":"900","managewp_height":"500","managewp_width":"900","meneame_height":"500","meneame_width":"900","digg_height":"500","digg_width":"900","home_url":"http:\/\/analytics-magazine.org","B":"B","M":"M","k":"k","nonce":"0bf83ca7c4","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false","bitly":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/plugins/ultimate-social-deux/public/assets/js/min/us.script-min.js?ver=5.1.2'></script>
+<link rel='https://api.w.org/' href='http://analytics-magazine.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://analytics-magazine.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://analytics-magazine.org/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='http://analytics-magazine.org/?p=5805' />
+<link rel="alternate" type="application/json+oembed" href="http://analytics-magazine.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fanalytics-magazine.org%2Fthe-data-economy-why-do-so-many-analytics-projects-fail%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://analytics-magazine.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fanalytics-magazine.org%2Fthe-data-economy-why-do-so-many-analytics-projects-fail%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//analytics-magazine.org/?wordfence_lh=1&hid=8CE127CF88315C2844171A5995A46910');
+</script><div class="us_floating"><div class="us_wrapper us_share_buttons us_tac us_skin_round" data-text="The Data Economy: Why do so many analytics projects fail?" data-url="http://analytics-magazine.org/the-data-economy-why-do-so-many-analytics-projects-fail/" data-ajaxnetworks="facebook,twitter,google,linkedin"><div class="us_facebook us_no_count us_button"><a class="us_box" href="#"><div class="us_share"><i class="us-icon-facebook"></i></div></a></div><div class="us_twitter us_no_count us_button"><a class="us_box" href="#"><div class="us_share"><i class="us-icon-twitter"></i></div></a></div><div class="us_google us_no_count us_button"><a class="us_box" href="#"><div class="us_share"><i class="us-icon-google"></i></div></a></div><div class="us_linkedin us_no_count us_button"><a class="us_box" href="#"><div class="us_share"><i class="us-icon-linkedin"></i></div></a></div><div class="us_print us_no_count us_button"><a class="us_box" href="#"><div class="us_share"><i class="us-icon-print"></i></div></a></div><div class="us_mail us_button us_no_count"><a class="us_box" href="#us-modal-2zAhA"><div class="us_share"><i class="us-icon-mail"></i></div></a></div><div class="us_wrapper us_modal mfp-hide" id="us-modal-2zAhA"><div class="us_heading">Share with your friends</div><div class="us_mail_response"></div><div class="us_mail_form_holder"><form role="form" id="ajaxcontactform" class="form-group contact" action="" method="post" enctype="multipart/form-data"><div class="form-group"><label class="label" for="ajaxcontactyour_name">Your Name</label><br><input type="text" id="ajaxcontactyour_name" class="border-box form-control us_mail_your_name" name="Your Name" placeholder="Your Name"><br><label class="label" for="ajaxcontactyour_email">Your Email</label><br><input type="email" id="ajaxcontactyour_email" class="border-box form-control us_mail_your_email" name="Your Email" placeholder="Your Email"><br><label class="label" for="ajaxcontactrecipient_email">Recipient Email</label><br><input type="email" id="ajaxcontactrecipient_email" class="border-box form-control us_mail_recipient_email" name="Recipient Email" placeholder="Recipient Email"><br><label class="label" for="ajaxcontactmessage">Enter a Message</label><br><textarea class="border-box form-control border-us_box us_mail_message" id="ajaxcontactmessage" name="Enter a Message" placeholder="Enter a Message">I read this article and found it very interesting, thought it might be something for you. The article is called The Data Economy: Why do so many analytics projects fail? and is located at http://analytics-magazine.org/the-data-economy-why-do-so-many-analytics-projects-fail/.</textarea><input type="email" id="ajaxcontactrecipient_url" class="border-box form-control us_mail_url" style="display:none;" name="http://analytics-magazine.org/the-data-economy-why-do-so-many-analytics-projects-fail/" placeholder="http://analytics-magazine.org/the-data-economy-why-do-so-many-analytics-projects-fail/"><br></div><div class="form-group"><label class="label" for="ajaxcontactcaptcha">Captcha</label><br><input type="text" id="ajaxcontactcaptcha" class="border-box form-control us_mail_captcha" name="Captcha" placeholder="What is the sum of 7 and 2?"><br></div></form><a class="btn btn-success us_mail_send">Submit</a></div></div></div></div><script type="text/javascript" src="//analytics-magazine.org/?wordfence_syncAttackData=1564847086.7608" async></script><style>
+	/* Main theme color */
+	.slider-container .slider-controls .slider-control.active a,
+	.breaking-news .breaking-title,
+	.breaking-news .breaking-controls,
+	.main-content-right .panel h3,
+	.content-panel .panel-header b,
+	.page-pager > span,
+	.page-pager > a:hover,
+	.shortcode-content .spacer-break-2,
+	.shortcode-content .spacer-break-3,
+	.shortcode-content .spacer-break-4,
+	.shortcode-content table thead,
+	.shortcode-content .accordion > div > a,
+	.content .filter a.active,
+	.article-array li:before {
+		background-color: #264C84;
+	}
+
+	/* Main links color */
+	a {
+		color: #264C84;
+	}
+
+	/* Page title color */
+	.content-article-title {
+		border-bottom: 4px solid #264C84;
+		color: #264C84;
+	}
+
+	/* Pager border color */
+	.page-pager {
+		border-top: 1px solid #264C84;
+	}
+
+	/* Gallery shortcode active thumb color */
+	.shortcode-content .gallery-preview .gallery-thumbs li.active:before {
+		box-shadow: inset 0px 0px 0px 5px #264C84;
+	}
+
+
+
+	/* Background Color/Texture/Image */
+	body {
+					background: #FFFFFF;
+		
+	}
+
+	
+		.boxed {
+		background-image: url(http://analytics-magazine.org/wp-content/themes/legatus-theme/images/background-header.jpg);
+	}
+	 
+	</style><style>
+
+		/* Content text */
+		p {
+			font-size: 13px!important;
+			font-family: 'Arial', sans-serif;
+		}
+
+		/* Logo text */
+		.header-middle .logo-text h1 {
+			font-size: 55px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Main menu text */
+		.header .header-menu li a {
+			font-size: 14px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Article title */
+		.article-big-block .article-header h2, .article-small-block .article-header h2 {
+			font-size: 20px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Video title */
+		.video-small h2 a {
+			font-size: 13px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Homepage's photo gallery title */
+		.photo-gallery-blocks .images-content li div.article-header h2 a {
+			font-size: 16px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Blog page title */
+		.content-article-title h2 {
+			font-size: 33px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Comment username */
+		.comment-block .commment-content .user-nick {
+			margin-left: 75px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* "No comments" title */
+		.no-comment-block b {
+			font-size: 22px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Error/succes message title */
+		.huge-message .big-title {
+			font-size: 80px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Error/succes message second text */
+		.huge-message .small-title {
+			font-size: 40px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Gallery Title */
+		.gallery-box .gallery-box-header h2 {
+			font-size: 17px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Homepage's second column article title */
+		.article-middle-block .article-header h2 a {
+			font-size: 13px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Sidebar panel title */
+		.main-content-right .panel h3 {
+			font-size: 12px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Photo gallery title */
+		.panel-gallery .gallery-header b a {
+			font-size: 13px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Sidebar article block title */
+		.article-side-block .article-header h2 a,
+		.article-classic .article-header h2 a {
+			font-size: 20px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Floating social button likes count text */
+		.social-icons-float .social-icon .social-count {
+			font-size: 24px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Opened post title */
+		.main-article-content h2.article-title {
+			font-size: 22px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Calendar dates */
+		.main-article-content .article-controls .date .calendar-date {
+			font-size: 28px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* Bottom social button likes count text */
+		.article-share-bottom .social-icon .social-count {
+			font-size: 11px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		/* "About author" author title */
+		.author-content h3 {
+			font-size: 18px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+</style><script>
+		var breakingStart = true;	// autostart breaking news
+		var breakingSpeed = 40;		// breaking msg speed
+
+		var breakingScroll = [0,0,0,0,0,0,0,0,0,0];
+		var breakingOffset = [0,0,0,0,0,0,0,0,0,0];
+		var elementsToClone = [true,true,true,true,true,true,true,true,true,true];
+		var elementsActive = [];
+		var theCount = [0,0,0,0,0,0,0,0,0,0];
+		var _legatus_slider_timer;
+
+		// Legatus Slider Options
+		var _legatus_slider_autostart = true	// Autostart Slider (false / true)
+		var _legatus_slider_interval = 5000;	// Autoslide Interval (Def = 5000)
+		var _legatus_slider_loading = true;		// Autoslide With Loading Bar (false / true)
+
+
+
+			//form validation
+			function validateName(fld) {
+				"use strict";
+				var error = "";
+						
+				if (fld.value === '' || fld.value === 'Nickname' || fld.value === 'Enter Your Name..' || fld.value === 'Your Name..') {
+					error = "You didn't enter Your First Name.";
+				} else if ((fld.value.length < 2) || (fld.value.length > 200)) {
+					error = "First Name is the wrong length.";
+				}
+				return error;
+			}
+					
+			function validateEmail(fld) {
+				"use strict";
+				var error="";
+				var illegalChars = /^[^@]+@[^@.]+\.[^@]*\w\w$/;
+						
+				if (fld.value === "") {
+					error = "You didn't enter an email address.";
+				} else if ( fld.value.match(illegalChars) === null) {
+					error = "The email address contains illegal characters.";
+				}
+
+				return error;
+
+			}
+					
+			function valName(text) {
+				"use strict";
+				var error = "";
+						
+				if (text === '' || text === 'Nickname' || text === 'Enter Your Name..' || text === 'Your Name..') {
+					error = "You didn't enter Your First Name.";
+				} else if ((text.length < 2) || (text.length > 50)) {
+					error = "First Name is the wrong length.";
+				}
+				return error;
+			}
+					
+			function valEmail(text) {
+				"use strict";
+				var error="";
+				var illegalChars = /^[^@]+@[^@.]+\.[^@]*\w\w$/;
+						
+				if (text === "") {
+					error = "You didn't enter an email address.";
+				} else if ( text.match(illegalChars) === null) {
+					error = "The email address contains illegal characters.";
+				}
+
+				return error;
+
+			}
+					
+			function validateMessage(fld) {
+				"use strict";
+				var error = "";
+						
+				if (fld.value === '') {
+					error = "You didn't enter Your message.";
+				} else if (fld.value.length < 3) {
+					error = "The message is to short.";
+				}
+
+				return error;
+			}		
+
+			function validatecheckbox() {
+				"use strict";
+				var error = "Please select at least one checkbox!";
+				return error;
+			}
+</script><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://analytics-magazine.org/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="icon" href="http://analytics-magazine.org/wp-content/uploads/2015/10/Analytics_Informs_Logo_blue-flavicon1.jpg" sizes="32x32" />
+<link rel="icon" href="http://analytics-magazine.org/wp-content/uploads/2015/10/Analytics_Informs_Logo_blue-flavicon1.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://analytics-magazine.org/wp-content/uploads/2015/10/Analytics_Informs_Logo_blue-flavicon1.jpg" />
+<meta name="msapplication-TileImage" content="http://analytics-magazine.org/wp-content/uploads/2015/10/Analytics_Informs_Logo_blue-flavicon1.jpg" />
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.posts-by-tag-item-title {
+font-size: 12px;
+font-weight: bold;}
+
+.attachment-thumbnail {padding-right: 5px;
+float:left;}
+
+.posts-by-tag-item {padding-bottom:20px;}		</style>
+		<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	
+
+	<!-- END head -->
+	</head>
+	
+	<!-- BEGIN body -->
+	<body class="post-template-default single single-post postid-5805 single-format-standard wpb-js-composer js-comp-ver-5.6 vc_responsive">
+			
+					<!-- BEGIN .boxed -->
+		<div class="boxed">
+			
+			<!-- BEGIN .header -->
+			
+			<div class="header">
+
+				<!-- BEGIN .header-very-top -->
+				<div class="header-very-top">
+
+					<!-- BEGIN .wrapper -->
+					<div class="wrapper">
+
+						<div class="left">
+							
+						</div>
+
+						
+						<div class="clear-float"></div>
+						
+					</div>
+					<div class="double-split"></div>
+				<!-- END .header-very-top -->
+				</div>
+
+				<!-- BEGIN .header-middle -->
+				<div class="header-middle">
+					<div class="wrapper">
+													<div class="logo-image">
+								<h1>Analytics Magazine</h1>
+								<a href="http://analytics-magazine.org"><img class="logo" src="http://analytics-magazine.org/wp-content/uploads/2017/03/Analytics_Informs_Logo_blue-transparent-2.png" alt="Analytics Magazine" /></a>
+							</div>
+						
+
+							<div class="banner">
+								<div class="banner-block">
+									
+								</div>
+
+							</div>
+
+
+						<div class="clear-float"></div>
+						
+					</div>
+				<!-- END .header-middle -->
+				</div>
+
+				<!-- BEGIN .header-menu -->
+				<div class="header-menu thisisfixed">
+					<div class="wrapper">
+						<ul class="menu main-menu" ><li id="menu-item-12" class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a href="http://analytics-magazine.org/">Home</a></li>
+<li id="menu-item-9737" class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children ot-dropdown"><a href="http://analytics-magazine.org/issues/">Issues<span>&nbsp;</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-9741" class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a href="http://analytics-magazine.org/current-issue/">Current Issue</a></li>
+	<li id="menu-item-9734" class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a href="http://analytics-magazine.org/archives/">Archives</a></li>
+	<li id="menu-item-75" class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a href="http://analytics-magazine.org/digital-editions/">Digital Editions</a></li>
+</ul>
+</li>
+<li id="menu-item-13380" class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pubsonline.informs.org/magazine/analytics/news">News</a></li>
+<li id="menu-item-13381" class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pubsonline.informs.org/magazine/analytics/topics">Topics</a></li>
+<li id="menu-item-12701" class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom"><a href="https://share.hsforms.com/1YQWaVZZnQLagSv0NdAtvgw21xem?utm_campaign=Analytics%20eNewsletters&amp;utm_source=hs_email&amp;utm_medium=email&amp;utm_content=2&amp;_hsenc=p2ANqtz--Bi9CB8jnfaNfDEeN5-DaX4GRtZv_r8bOhXusbsNNZvh45_oLPWuI5XyvWwr3yXTym4Iz2RxWdzckqIB-aDumZK55XApFVuJndtIfJz0DsWXoLRug&amp;_hsmi=2">Subscribe</a></li>
+<li id="menu-item-13382" class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pubsonline.informs.org/magazine/analytics/advertise">Advertise</a></li>
+</ul>
+													<div class="right menu-search">
+								<form method="get" action="http://analytics-magazine.org" name="searchform" >
+									<input type="text" value="" placeholder="Search something.." name="s" id="s"/>
+									<input type="submit" class="search-button" value="&nbsp;" />
+								</form>
+							</div>
+						
+						<div class="clear-float"></div>
+
+					</div>
+				<!-- END .header-menu -->
+				</div>
+
+				<!-- BEGIN .header-undermenu -->
+				<div class="header-undermenu">
+					<div class="wrapper">
+													
+						<div class="clear-float"></div>
+
+					</div>
+				<!-- END .header-undermenu -->
+				</div>
+				
+			<!-- END .header -->
+			</div>
+
+
+	
+
+			<!-- BEGIN .content -->
+			<div class="content">
+				
+				<!-- BEGIN .wrapper -->
+				<div class="wrapper">
+						
+					
+					<!-- BEGIN .main-content-left -->
+					<div class="main-content-left">
+																						
+
+
+	 				
+			<div class="main-article-content">
+									<h1 class="article-title no-bottom">The Data Economy: Why do so many analytics projects fail?</h1>
+																<!-- BEGIN .shortcode-content -->
+				<div class="shortcode-content">
+							
+					<p class="caps"><i>July/August 2014</i></p>
+<h2><i>Key considerations for deep analytics on big data, learning and insights.</i></h2>
+<table class="mceItemTable" style="width: 300px;" border="0" cellpadding="1" align="right">
+<tbody>
+<tr>
+<td></td>
+<td><img class=" size-full wp-image-5802 size-full wp-image-5802" src="http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_haluk-demirkan.jpg" alt="alt" width="150" height="194" /></td>
+<td><img class=" size-full wp-image-5803 size-full wp-image-5803" src="http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_bulent-dal.jpg" alt="alt" width="150" height="194" /></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>By (l-r) Haluk Demirkan and Bulent Dal</h3>
+<p>What is big data? Big data, which means many things to many people, is not a new technological fad. In addition to providing innovative solutions and operational insights to enduring challenges and opportunities, big data with deep analytics instigate new ways to transform processes, organizations, entire industries and even society. Pushing the boundaries of deep data analytics uncovers new insights and opportunities, and “big” depends on where you start and how you proceed.</p>
+<p>Big data is not just “big.” The exponentially growing volume of data is only one of many characteristics that are often associated with big data, such as variety, velocity, veracity and others (the six Vs; see box).</p>
+<p>According to Gartner Research, the worldwide market for analytics will remain the top focus for CIOs through 2017 [1]. According to Gartner, more than half of all analytics projects fail because they aren’t completed within budget or on schedule, or because they fail to deliver the features and benefits that are optimistically agreed on at their outset.</p>
+<table class="mceItemTable" style="width: 300px; height: 375px;" border="0" cellspacing="0" cellpadding="20" align="right">
+<thead>
+<tr id="id" dir="dir" lang="lang" style="height: 20px; background-color: #3c4baf;" align="left" valign="middle" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="height: 30px; background-color: #3c4baf; padding: 0px 0px 0px 10px; width: 300px;" scope="scope" align="left" valign="middle">
+<h2><span style="color: #ffffff;">The six Vs of big data</span></h2>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="id" class="bodytext" dir="dir" lang="lang" style="background-color: #d0d6dc; height: 380px; width: 300px; padding: 10px 0px 0px 10px;" scope="scope" align="left" valign="top">• Volume (data at rest): terabytes to exabytes, petabytes to zettabytes of lots of data<br />
+• Velocity (data in motion): streaming data, milliseconds to seconds, how fast data is being produced and how fast the data must be processed to meet the need or demand<br />
+• Variety (data in many forms): structured, unstructured, text, multimedia, video, audio, sensor data, meter data, html, text, e-mails, etc.<br />
+• Veracity (data in doubt): uncertainty due to data inconsistency and incompleteness, ambiguities, latency, deception, model approximations, accuracy, quality, truthfulness or trustworthiness<br />
+• Variability (data in change): the differing ways in which the data may be interpreted; different questions require different interpretations<br />
+• Value (data for co-creation and deep learning): The relative importance of different complex data from distributed locations. Big data with deep analytics means greater insight and better decisions, something that every organization needs.</td>
+</tr>
+</tbody>
+</table>
+<p>Today, an abundance of knowledge and experience exists to have successful data and analytics-enabled decision support systems. So why do so many of these projects fail, and why are so many executives and users still so unhappy? While there are many reasons for the high failure rate, the biggest reason is that companies still treat these projects as just another IT project. Big data analytics is neither a product nor a computer system. Instead, it should be considered a constantly evolving strategy, vision and architecture that continuously seeks to align an organization’s operations and direction with its strategic business goals and tactical and operational decisions. Table 1 includes a list of common mistakes that can doom analytics projects.</p>
+<h3>Key Considerations for Deep Analytics</h3>
+<p>We live in an era of big data. Whether you work in financial services, consumer goods, travel, transportation, healthcare, education, supply chain, logistics or industrial products and professional services, analytics are becoming a competitive necessity for your organization. But having big data – and even people who can manipulate it successfully – is not enough. Companies need managers who can partner effectively with analysts to ensure that their work yields better strategic and tactical decisions.</p>
+<p>Big data with deep analytics is a journey that helps organizations solve key business issues and opportunities by converting data into insights to influence business actions and drive critical business outcomes. As organizations try to take advantage of the big data opportunity, they need not be overwhelmed by the various challenges that might await them.</p>
+<table class="mceItemTable" style="width: 650px;" border="0" cellpadding="0">
+<tbody>
+<tr>
+<td><img class=" size-full wp-image-5804 size-full wp-image-5804" src="http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_why.fail.figure.1.jpg" alt="alt" width="650" height="246" srcset="http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_why.fail.figure.1.jpg 650w, http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_why.fail.figure.1-300x114.jpg 300w, http://analytics-magazine.org/wp-content/uploads/2014/07/julaug14_why.fail.figure.1-605x229.jpg 605w" sizes="(max-width: 650px) 100vw, 650px" /></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Managers will need to start their journey by [2]:</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Identifying clear business need and value</span></i>. Almost everything needs to be a business rather than a technology solution. Before companies start collecting big data, they should have a clear idea of what they want to do with it with from a business sense. Here’s what you need to consider:</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Turn over part or all of big data solution delivery to business leaders</span></i>. Project management and ownership from business (not IT) in big data solutions is the key for success. In the meantime, make sure to have clear alignment between business and IT.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Partner with business peers to identify opportunities and solutions.</span></i> If we talk about big data, the impact of these projects should also be “big.” Create a cross-organization team and involve all stakeholders early in the game.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Value co-creation of value with customers.</span></i> Overall business objective should always be about customers. If one of the initiatives is about big marketing outcome, than it should be about how to set up customer-centric marketing, how to provide targeted dynamic advertisement, how to engage customers and how to manage personalized shopping.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Start small – with an eye to scale quickly.</span></i> While big data solutions may be quite advanced, everything else surrounding it – best practices, methodologies, org structures, etc. – is nascent. No one has all the answers, at least not yet. Understand why traditional business intelligence and data warehousing projects can’t solve a problem.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Small, simple and scalable.</span></i> When launching big data initiatives, avoid 1) getting too complicated too fast, and 2) not being prepared to scale once a solution catches on. Big data solutions can quickly grow out of control since discovering value from data prompts wanting more data.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Identify what part of the business would benefit from quick wins.</span></i> Look for opportunities that will show quick wins within no more than three months. Success brings more people to the table.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">This is not a one-time implementation.</span></i> Understand that this is a living and evolving organism that will grow exponentially very fast. It is a culture change in the company with the way that you collect and use data, and the way you make outcome-based decisions.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Develop a minimal set of big data governance directives upfront.</span></i> Big data governance is a chicken-and-egg problem – you can’t govern or secure what you haven’t explored. However, exploring vast data sets without governance and security introduces risk.</p>
+<table style="width: 280px; border: 1px solid #000000; height: 475px;" border="1" frame="border" cellspacing="0" cellpadding="2" align="right">
+<tbody>
+<tr id="id" dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="background-color: #3c4baf; padding: 0px 0px 0px 10px;" scope="scope" align="left" valign="middle">
+<h3><span style="color: #ffffff;">Table 1: Common mistakes for analytics projects.</span></h3>
+</td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="left" valign="top"><span class="Apple-style-span" style="font-weight: bold;">Failing to build the need for big data within the organization</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px; background-color: #ffffff;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Islands of analytics with “Excel culture”</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Data quality and reliability related issues</span></td>
+</tr>
+<tr id="id" dir="dir" lang="lang" style="background-color: #ffffff;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Not enough investigation on vendor products and rather than blindly taking the path of least resistance</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Departmental thinking rather than looking at the big picture</span></td>
+</tr>
+<tr id="id" dir="dir" lang="lang" style="background-color: #ffffff;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Considering this as a one-time implementation rather than a living eco-system</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Developing silo dashboards to answer a few questions rather than strategic, tactical and operational dashboards</span></td>
+</tr>
+<tr id="id" dir="dir" lang="lang" style="background-color: #ffffff;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Not establishing company ontology and definitions for “single version of truth” culture</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Lack of vision and not having a strategy; not having a clear organizational communications plan</span></td>
+</tr>
+<tr id="id" dir="dir" lang="lang" style="background-color: #ffffff;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Lack of upfront planning; overlooking the development of governance and program oversight</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Failure to re-organize for big data</span></td>
+</tr>
+<tr id="id" dir="dir" lang="lang" style="background-color: #ffffff;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Not establishing a formal training program</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Ignoring the need to sell success and market the big data program</span></td>
+</tr>
+<tr id="id" dir="dir" lang="lang" style="background-color: #ffffff;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Not having the adequate architecture for data integration</span></td>
+</tr>
+<tr dir="dir" lang="lang" style="background-color: #c8cce8;" align="left" valign="top" bgcolor="bgcolor">
+<td id="id" dir="dir" lang="lang" style="padding: 0px 0px 0px 10px;" colspan="1" scope="scope" align="align" valign="valign"><span class="Apple-style-span" style="font-weight: bold;">Forgetting rapidly increasing complexities with …volume, velocity, variety, veracity, and many more</span></td>
+</tr>
+</tbody>
+</table>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">New processes to manage open source risks.</span></i> Most big data solutions are being built on open source software, but open source has both legal and skill implications as firms are: 1) exposed to risk due to intellectual property issues and complex licensing agreements; 2) concerned about liability if systems built on open source fail; and 3) required to use technology that is often early release and not enterprise-class.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">New agile processes for solution delivery</span></i>. Successful firms will embrace agile practices that allow end users of big data solutions to provide highly interactive inputs throughout the implementation process.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Integrate structured and unstructured data from multiple sources.</span></i> Integration of data is one of the most important and also complex processes to serve efficient and effective decision-making. In terms of data, it includes machine data, sensor data, videos, audio, documents, enterprise content in call centers, e-mail messages, wikis and, indeed, larger volumes of transactional and application data.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Data sharing is key.</span></i> In order for a company to build a big data ecosystem that drives business action, organizations have to share data.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Build a strong data infrastructure to host and manage data.</span></i> Make sure to have secured and reliable in-house and/or hosted data (e.g., cloud) and information management infrastructure.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Think about what information do I collect today</span></i> … and what analytics should I perform that can benefit me and others.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">New security and compliance procedures to protect extreme-scale data.</span></i> In order to succeed with big data, new processes must be developed that recognize and protect the special nature of extreme-scale data that may be largely unexplored.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Be ready to support rapid growth.</span></i> Big data solutions can grow fast and exponentially. They can start as a pilot with a few terabytes of data, then becomes a petabyte very quickly. Since the same data can be used different ways and reanalyzed for new insights easily, nothing ever gets deleted.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Funding must move out of IT for big data success.</span></i> Funding for these projects should come from outside of the CIO organization and move to a marketing or sales organization, for instance, so that the business has a vested stake in the game.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Create a road map that gradually builds the skills of your organization.</span></i> It’s important to create a road map that allows you to gradually build the required skills within your staff, minimize risk and capitalize on previous successes to gain more support. In the organization, there will be new roles and responsibilities such as the data scientist, who possesses a blend of skills that includes statistics, applied mathematics and computer science.</p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">This is different than any current decision support solution.</span></i> With big data, organizations should look for new capabilities, such as: using advanced analytics to uncover patterns previously hidden; visualization and exploration to help the business find more complete answers, with new types and greater volumes of data to best represent the data to the user and highlight important patterns to the human eye; enable operational decision-making with on-demand stream data by making floor employees into analytic consumers; and turn insight into action to drive a decision – either with a manual step or an automated process. And most important be ready for rapidly increasing benefits and complexities from the six Vs.</p>
+<h3>What is Next in the Data Economy?</h3>
+<p>Organizations have access to a wealth of information, but they can’t get value out of it because it is sitting in its most raw form or in a semi-structured or unstructured format [3]. As a result, they don’t even know whether it’s worth keeping.</p>
+<p>So where is deep analytics for deep learning headed in the next few years? The exciting news is that many organizations are already realizing the value of big data analytics today. Insight-driven, information-centric initiatives will be deployed where the ability to capitalize on the six Vs of information will create new opportunities for organizations to exploit. By combining and integrating deep analytics, local rules, scoring, optimization techniques and machine learning with cognitive science into business processes and systems, decision management helps deliver decisions that are consistently optimized and aligned with the organization’s desired outcomes.</p>
+<p>Social analytics will ensure businesses know how, when and where to creatively engage with individual consumers and social communities to foster trusted, one-to-one relationships and better understand and manage the way their companies are perceived. Integrating demographic and transactional data with what can be learned about attitudes and opinions allows organizations to truly understand the motivations and intents of its constituents to better serve them at the right time and place.</p>
+<p>Deep analytics will help organizations uncover previously hidden patterns, identify classifications, associations and segmentations, and make highly accurate predictions from structured and unstructured information. Organizations will use real-time analysis of current activity to anticipate what will happen and identify drivers of various business outcomes so they can address the issues and challenges before they occur. Many decisions will be done automatically by computers that also have deep-learning capabilities.</p>
+<p>When you are in a process of starting a big data journey, consider this question: What should our big data with deep analytics roadmap look like to achieve our objectives?</p>
+<hr />
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Haluk Demirkan</span> (<a href="mailto:haluk@uw.edu" target="_blank">haluk@uw.edu</a>) is a professor of Service Innovation and Business Analytics, and the founder and executive director of Center for Information Based Management at the Milgard School of Business, University of Washington-Tacoma. He has a Ph.D. in information systems and operations management from the University of Florida. He is a longtime member of INFORMS.</i></p>
+<p><i><span class="Apple-style-span" style="font-weight: bold;">Bulent Dal</span> (<a href="mailto:bulent.dal@obase.com" target="_blank">bulent.dal@obase.com</a>) is a co-founder and general manager of Obase Analytical Solutions, Istanbul, Turkey. His expertise is in scientific retail analytical solutions. He has a Ph.D. in computer sciences engineering from Istanbul University.</i></p>
+<h3><i>Acknowledgement</i></h3>
+<p><i>Part of this article is excerpted with permission of the publisher, HBR Turkey, from Demirkan, H. and Dal, B., “Big Data, Big Opportunities, Big Decisions,” </i>Harvard Business Review Turkish Edition<i> (published in Turkish), March 2014.</i></p>
+<h3>REFERENCES</h3>
+<ol>
+<li>Gartner, Inc., 2013, “Gartner Predicts Business Intelligence and Analytics Will Remain Top Focus for CIOs Through 2017,” Dec. 16, 2013, <a href="http://www.gartner.com/newsroom/id/2637615" target="_blank">http://www.gartner.com/newsroom/id/2637615</a>.</li>
+<li>Demirkan, H. and Dal, B., “Big Data, Big Opportunities, Big Decisions,” <i>Harvard Business Review Turkish Edition</i> (published in Turkish), March 2014, pp. 28-30.</li>
+<li>Davenport, T., 2013, “Analytics, 3.0,” <i>Harvard Business Review,</i> December.</li>
+</ol>
+<p><a href="http://viewer.zmags.com/publication/71383123#/71383123/44"><img class=" size-full wp-image-4447 size-full wp-image-4447" style="border: 0pt none;" src="http://analytics-magazine.org/wp-content/uploads/2011/11/digital.jpg" alt="business analytics news and articles" width="366" height="30" /></a></p>
+<p>&nbsp;</p>
+<p></p><h2 class="cprp_section_title">Related Posts</h2><div class="cprp_items list"><ul><li><div class="cprp_data"><div class="cprp_title"><a href="http://analytics-magazine.org/turn-big-data-into-information-with-high-performance-analytics/">Turn big data into information with high-performance analytics</a></div><div class="cprp_percentage">83</div><div class="cprp_excerpt"><span class="cprp_excerpt_content">September/October 2013 By Paul Kent (LEFT TO RIGHT), Radhika Kulkarni and Udo Sglavo We’re in the era of big data, but what do we mean by that? In our view, big data is a relative, not absolute, term. It means that the organization’s need to handle, store and analyze data&hellip;</span></div><div class="cprp_tags">Tags: data, analytics, business, velocity, volume, variety, variability, big</div></div></li><li><div class="cprp_data"><div class="cprp_title"><a href="http://analytics-magazine.org/viewpoint-embracing-analytics-a-rush-to-judgment/">Viewpoint: Embracing analytics a rush to judgment?</a></div><div class="cprp_percentage">74</div><div class="cprp_excerpt"><span class="cprp_excerpt_content">November/December 2013 By Gary Cokins Allow me to take a contrarian view to the rapid interest in applying analytics. Have we seen this kind of story before? Is there a rush to judgment that analytics is the elusive cure-all magic potion or panacea that management has been seeking to achieve&hellip;</span></div><div class="cprp_tags">Tags: analytics, big, business, data, velocity, variety, volume</div></div></li><li><div class="cprp_data"><div class="cprp_title"><a href="http://analytics-magazine.org/executive-edge-what-makes-a-good-data-scientist/">Executive Edge: What makes a good data scientist?</a></div><div class="cprp_percentage">65</div><div class="cprp_excerpt"><span class="cprp_excerpt_content">July/August 2013 Four things to look for when building an analytics team. By Andrew Jennings Companies in every industry from retail to banking are leveraging big data to improve the customer experience and enhance their bottom lines. Big data – high volume, high velocity (real time) and high variety (structured&hellip;</span></div><div class="cprp_tags">Tags: data, analytics, big, business, variety, volume, velocity</div></div></li><li><div class="cprp_data"><div class="cprp_title"><a href="http://analytics-magazine.org/hungry-for-data-thirsty-for-time/">Hungry for data, thirsty for time</a></div><div class="cprp_percentage">56</div><div class="cprp_excerpt"><span class="cprp_excerpt_content">Organizations of all sizes and types are awash in data possibilities, yet most of them cannot capitalize on the potential for a variety of reasons. The good news, however, is that with the right decisions and focus, these possibilities can turn quickly into realized opportunities.</span></div><div class="cprp_tags">Tags: data, analytics, business, big</div></div></li><li><div class="cprp_data"><div class="cprp_title"><a href="http://analytics-magazine.org/analytics-across-the-enterprise-analytics-transforms-a-dinosaur/">Analytics Across the Enterprise: Analytics transforms a ‘dinosaur’</a></div><div class="cprp_percentage">52</div><div class="cprp_excerpt"><span class="cprp_excerpt_content">July/August 2014 The story of how IBM not only survived but thrived by realizing business value from big data. By (l-r) Brenda Dietrich, Emily Plachy and Maureen Norton This is the story of how an iconic company founded more than a century ago, and once deemed a “dinosaur” that would&hellip;</span></div><div class="cprp_tags">Tags: analytics, data, business, big</div></div></li></ul></div><div style="clear:both;"></div>		
+				<!-- END .shortcode-content -->
+				</div>
+					
+			</div>
+			<!-- BEGIN .main-nosplit -->
+			<div class="main-nosplit">
+																	<div class="article-share-bottom">
+		
+		<b>Tags</b>
+
+		<div class="tag-block">
+			<a href="http://analytics-magazine.org/tag/big-data/">big data</a><a href="http://analytics-magazine.org/tag/deep-analytics/">deep analytics</a><a href="http://analytics-magazine.org/tag/value/">value</a><a href="http://analytics-magazine.org/tag/variability/">variability</a><a href="http://analytics-magazine.org/tag/variety/">variety</a><a href="http://analytics-magazine.org/tag/velocity/">velocity</a><a href="http://analytics-magazine.org/tag/veracity/">veracity</a><a href="http://analytics-magazine.org/tag/volume/">volume</a>		</div>
+
+		<div class="clear-float"></div>
+
+	</div>
+				
+							<!-- END .main-nosplit -->
+			</div>
+			
+
+			
+
+											<!-- END .main-content-left -->
+					</div>
+
+					
+									<!-- BEGIN .main-content-right -->
+					<div class="main-content-right">
+
+													<!-- BEGIN .main-nosplit -->
+							<div class="main-nosplit">
+								<div class="widget-1 first widget panel"><h3>Web-First</h3>			<div class="textwidget"><h4>• <a href="http://analytics-magazine.org/analyze-this-virtues-of-agile-development-methodology/">Analyze This!: Virtues of agile development methodology</a></h4>
+</div>
+		</div><div class="widget-2 widget panel"><div class="menu-side-menu-container"><ul id="menu-side-menu" class="menu"><li id="menu-item-745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-745"><a href="http://viewer.zmags.com/publication/763cbaa8#/763cbaa8/1">• Digital Edition</a></li>
+<li id="menu-item-747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-747"><a href="https://www.informs.org/Community/Analytics">• INFORMS Analytics Society</a></li>
+<li id="menu-item-748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-748"><a href="https://www.facebook.com/AnalyticsMagazine/?fref=ts">• Analytics Facebook Page</a></li>
+</ul></div></div><div class="widget-3 widget panel"><h3>Headlines</h3>
+
+<div class="upw-posts hfeed">
+
+  
+      
+        
+        <article class="post-13302 post type-post status-publish format-standard has-post-thumbnail hentry category-headlines category-news">
+
+          <header>
+
+            
+                          <h4 class="entry-title">
+                <a href="http://analytics-magazine.org/using-machine-learning-and-optimization-to-improve-refugee-integration/" rel="bookmark">
+                  Using machine learning and optimization to improve refugee integration                </a>
+              </h4>
+            
+            
+          </header>
+
+                      <div class="entry-summary">
+              <p>
+                Andrew C. Trapp, a professor at the Foisie Business School at Worcester Polytechnic Institute (WPI), received a $320,000 National Science Foundation (NSF) grant to develop a computational tool to help humanitarian aid organizations significantly improve refugees’ chances of successfully resettling and integrating into a new country. Built upon ongoing work with an international team of computer scientists and economists, the tool integrates machine learning and optimization algorithms, along with complex computation of data, to match refugees to communities where they will find appropriate resources, including employment opportunities.                                  <a href="http://analytics-magazine.org/using-machine-learning-and-optimization-to-improve-refugee-integration/" class="more-link">Read more →</a>
+                              </p>
+            </div>
+          
+          <footer>
+
+            
+            
+            
+          </footer>
+
+        </article>
+
+      
+        
+        <article class="post-13298 post type-post status-publish format-standard has-post-thumbnail hentry category-headlines category-news">
+
+          <header>
+
+            
+                          <h4 class="entry-title">
+                <a href="http://analytics-magazine.org/gartner-releases-healthcare-supply-chain-top-25-rankings/" rel="bookmark">
+                  Gartner releases Healthcare Supply Chain Top 25 rankings                </a>
+              </h4>
+            
+            
+          </header>
+
+                      <div class="entry-summary">
+              <p>
+                Gartner, Inc. has released its 10th annual Healthcare Supply Chain Top 25 ranking. The rankings recognize organizations across the healthcare value chain that demonstrate leadership in improving human life at sustainable costs. “Healthcare supply chains today face a multitude of challenges: increasing cost pressures and patient expectations, as well as the need to keep up with rapid technology advancement, to name just a few,” says Stephen Meyer, senior director at Gartner.                                  <a href="http://analytics-magazine.org/gartner-releases-healthcare-supply-chain-top-25-rankings/" class="more-link">Read more →</a>
+                              </p>
+            </div>
+          
+          <footer>
+
+            
+            
+            
+          </footer>
+
+        </article>
+
+      
+        
+        <article class="post-13294 post type-post status-publish format-standard has-post-thumbnail hentry category-headlines category-news">
+
+          <header>
+
+            
+                          <h4 class="entry-title">
+                <a href="http://analytics-magazine.org/meet-cimon-the-first-ai-powered-astronaut-assistant/" rel="bookmark">
+                  Meet CIMON, the first AI-powered astronaut assistant                </a>
+              </h4>
+            
+            
+          </header>
+
+                      <div class="entry-summary">
+              <p>
+                CIMON, the world’s first artificial intelligence-enabled astronaut assistant, made its debut aboard the International Space Station. The ISS’s newest crew member, developed and built in Germany, was called into action on Nov. 15 with the command, “Wake up, CIMON!,” by German ESA astronaut Alexander Gerst, who has been living and working on the ISS since June 8.                                  <a href="http://analytics-magazine.org/meet-cimon-the-first-ai-powered-astronaut-assistant/" class="more-link">Read more →</a>
+                              </p>
+            </div>
+          
+          <footer>
+
+            
+            
+            
+          </footer>
+
+        </article>
+
+      
+  
+</div>
+
+</div><div class="widget-4 widget panel"><h3>UPCOMING ANALYTICS EVENTS</h3>			<div class="textwidget"><span style="font-size:12px"><strong>INFORMS-SPONSORED EVENTS</strong></span><br />
+<br />
+
+<a href="https://sites.google.com/vols.utk.edu/2019icsconference/"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">INFORMS Computing Society Conference</span></a><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">Jan. 6-8, 2019; Knoxville, Tenn.</span><br />
+<br />
+<a href="http://meetings2.informs.org/wordpress/analytics2019/"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">INFORMS Conference on Business Analytics & Operations Research</span></a><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">April 14-16, 2019; Austin, Texas</span><br />
+<br />
+<a href="http://meetings2.informs.org/wordpress/2019international/"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">INFORMS International Conference</span></a><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">June 9-12, 2019; Cancun, Mexico</span><br />
+<br />
+<a href="http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/events/2019-isms-marketing-science-conference"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">INFORMS Marketing Science Conference</span></a><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">June 20-22; Rome, Italy</span><br />
+<br />
+<a href="http://informs-aps.smp.uq.edu.au/index.html"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">INFORMS Applied Probability Conference</span></a><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">July 2-4, 2019; Brisbane, Australia</span><br />
+<br />
+<a href="http://meetings2.informs.org/wordpress/healthcare2019/"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">INFORMS Healthcare Conference</span></a><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">July 27-29, 2019; Boston, Mass.</span><br />
+<br />
+<a href="http://meetings2.informs.org/wordpress/seattle2019/"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">2019 INFORMS Annual Meeting</span></a><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">Oct. 20-23, 2019; Seattle, Wash.</span><br />
+<br />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">Winter Simulation Conference</span><br style="font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 12px;" />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">Dec. 8-11, 2019: National Harbor, Md.</span><br />
+<br />
+<span style="font-size:12px"><strong>OTHER EVENTS</strong></span><br />
+<br />
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px"><a href="https://the-modeling-agency.com/analytics-leadership-training/" target="_blank" rel="noopener noreferrer">Advancing the Analytics-Driven Organization</a><br />
+Jan. 28–31, 2019, 1 p.m.– 5 p.m. (live online)</span><br /></div>
+		</div><div class="widget-5 last widget panel"><h3>CAP® EXAM SCHEDULE</h3>			<div class="textwidget"><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px">CAP</span><span style="font-size:12px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><span style="color:rgb(80, 80, 80); line-height:16.5px">&reg;</span></span></span><span style="font-family:arial,helvetica neue,helvetica,sans-serif; font-size:12px"> Exam computer-based testing sites are available in 700 locations worldwide. Take the exam close to home and on your schedule:<br />
+<br />
+<a href=" https://candidate.psiexams.com/" target="_blank" rel="noopener noreferrer"><img align="middle" height="39" src="https://gallery.mailchimp.com/2f228f4c6b94e453302788f09/images/5314097b-c388-448e-a126-35954653b520.png" style="width: 100px; height: 39px; margin: 0px;" width="100" /></a></span><br />
+&nbsp;
+<div><span style="font-size:12px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">For more information, go to&nbsp;</span></span><br />
+<span style="font-size:12px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><a href="https://www.certifiedanalytics.org/" target="_blank" rel="noopener noreferrer">https://www.certifiedanalytics.org</a></span></span>.</div></div>
+		</div>							<!-- END .main-nosplit -->
+							</div>
+																													<!-- END .main-content-right -->
+					</div>
+					
+					<div class="clear-float"></div>
+					
+				<!-- END .wrapper -->
+				</div>
+				
+			<!-- BEGIN .content -->
+			</div>
+
+				
+			<!-- BEGIN .footer -->
+			<div class="footer">
+				
+				<!-- BEGIN .wrapper -->
+				<div class="wrapper">
+					
+						
+
+					<!-- BEGIN .footer-content -->
+					<div class="footer-content">
+													<div class="footer-menu">
+								<ul class="load-responsive" rel="Footer Menu"><li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="http://analytics-magazine.org/advertising/">Advertising</a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="http://analytics-magazine.org/employment/">Employment</a></li>
+<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://analytics-magazine.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://analytics-magazine.org/about-informs/">About INFORMS</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://analytics-magazine.org/contact-us/">Contact Us</a></li>
+</ul>							</div>
+						
+						
+						<div class="left"><b><i>Analytics</i> Magazine</b> © 2018 by <b><a href="https://www.informs.org/">INFORMS (the Institute for Operations Research and the Management Sciences)</a>.</b> All rights reserved.<br>
+INFORMS  •  5521 Research Park Drive, Suite 200 (On the campus of University of Maryland, Baltimore County, Hussman Building), Catonsville, MD 21228 USA<br>
+phone: 443-757-3500  •  800-4INFORMS (800-446-3676)  •  fax: 443-757-3515  •  <a href="mailto:informs@informs.org">informs@informs.org</a></div>
+						
+						<div class="right"></div>
+						
+						<div class="clear-float"></div>
+						
+					<!-- END .footer-content -->
+					</div>
+
+					
+				<!-- END .wrapper -->
+				</div>
+				
+			<!-- END .footer -->
+			</div>
+			
+		<!-- END .boxed -->
+		</div>
+		<div class="lightbox">
+			<div class="lightcontent-loading">
+				<h2 class="light-title">Loading..</h2>
+				<a href="#" onclick="javascript:lightboxclose();" class="light-close"><i class="fa fa-times"></i>Close Window</a>
+				<div class="loading-box">
+					<h3>Loading, Please Wait!</h3>
+					<span>This may take a second or two.</span>
+					<span class="loading-image"><img src="http://analytics-magazine.org/wp-content/themes/legatus-theme/images/loading.gif" title="" alt="" /></span>
+				</div>
+			</div>
+			<div class="lightcontent"></div>
+		</div>
+
+	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-24873513-1 ', 'analytics-magazine.org');ga('send', 'pageview');</script><script type='text/javascript'>
+/* <![CDATA[ */
+var cprp = {"star_on":"http:\/\/analytics-magazine.org\/wp-content\/plugins\/cp-related-posts\/images\/star_on.png","star_off":"http:\/\/analytics-magazine.org\/wp-content\/plugins\/cp-related-posts\/images\/star_off.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/plugins/cp-related-posts/scripts/cprp.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/admin/jquery.c00kie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/jquery.floating_popup.1.3.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/theme-scripts.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/jquery.event.move.js?ver=1.3.1'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/jquery.event.swipe.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.6'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/jquery.infinitescroll.min.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/lightbox.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/iscroll.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/modernizr.custom.50878.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/dat-menu.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/ot_gallery.js?ver=1.0'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/scripts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/themes/legatus-theme/js/legatus.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-includes/js/wp-embed.min.js?ver=00f5e2b20f8761f1c399c549e253887f'></script>
+<script type='text/javascript' src='http://analytics-magazine.org/wp-content/plugins/ultimate-social-deux/public/assets/js/min/jquery.magnific-popup-min.js?ver=1.0'></script>
+	<!-- END body -->
+	</body>
+<!-- END html -->
+</html>
